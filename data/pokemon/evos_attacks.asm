@@ -4847,27 +4847,21 @@ DunsparceEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, RAGE
 	db 1, DEFENSE_CURL
-	db 3, ROLLOUT
-	db 6, ASTONISH ; Spite → egg move
-	db 8, PURSUIT
-	db 11, SCREECH
-	db 13, MUD_SLAP
-	db 16, FURY_STRIKES ; Yawn → event move (Fury Attack)
-	db 18, ANCIENTPOWER
-	db 21, BODY_SLAM
-	db 23, DRAGON_RAGE ; Drill Run → new move
-	db 26, ROOST
-	db 28, TAKE_DOWN
-	db 31, DRAGON_DANCE ; Coil → new move
-	db 33, DIG
-	db 36, GLARE
-	db 38, DOUBLE_EDGE
-	db 41, EARTHQUAKE ; Endeavor → TM move
-	db 43, AIR_SLASH
-	db 46, HEX ; Dragon Rush → egg move
-	db 48, ENDURE
-	db 51, REVERSAL ; Flail → similar move
-	db 53, OUTRAGE ; new move
+	db 3, MUD_SLAP; Spite → egg move
+	db 7, ROLLOUT
+	db 11, PURSUIT
+	db 14, GLARE
+	db 17, FURY_STRIKES ; Drill Run → event move (Fury Attack)
+	db 21, ANCIENTPOWER
+	db 24, SCREECH
+	db 28, HYPNOSIS ; Yawn → Similar move
+	db 32, DIG ; Hyper Drill → Foreshadowing
+	db 34, ROOST
+	db 38, OUTRAGE ; Dragon Rush → new move
+	db 41, AIR_SLASH
+	db 43, DRAGON_DANCE ; Coil → new move
+	db 46, DOUBLE_EDGE
+	db 48, EARTHQUAKE ; Endeavor → TM move
 	db -1 ; no more level-up moves
 
 GligarEvosAttacks:
@@ -6540,31 +6534,28 @@ OverqwilEvosAttacks:
 
 DudunsparceEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, BODY_SLAM
+	db 1, REVERSAL ; Flail → similar move
+	db 1, ENDURE
 	db 1, RAGE
 	db 1, DEFENSE_CURL
-	db 3, ROLLOUT
-	db 6, ASTONISH ; Spite → egg move
-	db 8, PURSUIT
-	db 11, SCREECH
-	db 13, MUD_SLAP
-	db 16, FURY_STRIKES ; Yawn → event move (Fury Attack)
-	db 18, ANCIENTPOWER
-	db 21, BODY_SLAM
-	db 23, DRAGON_RAGE ; Drill Run → new move
-	db 26, ROOST
-	db 28, TAKE_DOWN
-	db 31, DRAGON_DANCE ; Coil → new move
-	db 33, DIG
-	db 36, GLARE
-	db 38, DOUBLE_EDGE
-	db 41, EARTHQUAKE ; Endeavor → TM move
+	db 3, MUD_SLAP; Spite → egg move
+	db 7, ROLLOUT
+	db 11, PURSUIT
+	db 14, GLARE
+	db 17, FURY_STRIKES ; Drill Run → event move (Fury Attack)
+	db 21, ANCIENTPOWER
+	db 24, SCREECH
+	db 28, HYPNOSIS ; Yawn → Similar move
+	db 32, DIG ; Hyper Drill → Foreshadowing
+	db 36, ROOST
+	db 40, HYPER_VOICE ; Boomburst → similar move
 	db 43, AIR_SLASH
-	db 46, HEX ; Dragon Rush → egg move
-	db 48, ENDURE
-	db 51, REVERSAL ; Flail → similar move
-	db 53, HURRICANE
-	db 56, HYPER_VOICE ; Boomburst → similar move
-	db 58, OUTRAGE ; new move
+	db 46, DRAGON_DANCE ; Coil → new move
+	db 49, DOUBLE_EDGE
+	db 52, EARTHQUAKE ; Endeavor → TM move
+	db 56, HURRICANE
+	db 62, OUTRAGE ; Dragon Rush → new move
 	db -1 ; no more level-up moves
 
 ClodsireEvosAttacks:
