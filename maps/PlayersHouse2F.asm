@@ -348,6 +348,11 @@ else
 endc
 
 PokemonJournalProfElmScript:
+	opentext
+	checkkeyitem SHINY_CHARM
+	iftruefwd .NoShinyCharm
+	verbosegivekeyitem SHINY_CHARM
+.NoShinyCharm
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
 
