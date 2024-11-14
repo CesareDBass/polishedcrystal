@@ -858,12 +858,14 @@ RemoraidEggMoves:
 
 DelibirdEggMoves:
 	db AURORA_BEAM
+	db COUNTER
 	db DESTINY_BOND
 	db ICE_PUNCH
 	db ICY_WIND
 	db QUICK_ATTACK
 	db RAPID_SPIN
 	db SPLASH
+	db SPIKES
 	db $ff
 
 SkarmoryEggMoves:
