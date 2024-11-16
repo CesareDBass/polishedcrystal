@@ -5070,20 +5070,18 @@ SneaselPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, BITE ; Taunt → egg move
-	db 8, QUICK_ATTACK
-	db 10, FEINT_ATTACK
-	db 14, ICE_SHARD ; Icy Wind → Ice Shard
-	db 16, FURY_STRIKES ; Fury Swipes → similar move
-	db 20, AGILITY
-	db 22, METAL_CLAW
-	db 25, HONE_CLAWS
-	db 28, ICICLE_CRASH ; Beat Up → egg move
-	db 32, SCREECH
-	db 35, SLASH
-	db 40, HEALINGLIGHT ; Snatch → event move (Moonlight)
-	db 44, X_SCISSOR ; Punishment → TM move
-	db 47, CRUNCH ; Ice Shard → new move
+	db 1, PURSUIT ; Taunt → Egg move
+	db 6, ICY_WIND ; TM move
+	db 10, QUICK_ATTACK
+	db 14, FURY_STRIKES ; Fury Swipes → similar move
+	db 18, METAL_CLAW
+	db 24, ICE_SHARD 
+	db 28, FEINT_ATTACK
+	db 32, HONE_CLAWS
+	db 36, SLASH
+	db 40, AGILITY
+	db 44, SCREECH
+	db 48, ICICLE_CRASH ; Beat Up → egg move
 	db -1 ; no more level-up moves
 
 SneaselHisuianEvosAttacks:
@@ -5091,21 +5089,18 @@ SneaselHisuianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, BITE ; Taunt → egg move
-	db 8, QUICK_ATTACK
-	db 10, FEINT_ATTACK
-	db 14, LOW_KICK ; Rock Smash → Low Kick
-	db 16, FURY_STRIKES ; Fury Swipes → similar move
-	db 20, AGILITY
-	db 22, METAL_CLAW
-	db 25, HONE_CLAWS
-	db 28, POISON_JAB
-	db 32, SCREECH
-	db 35, SLASH
-	db 40, SWORDS_DANCE
-	db 44, X_SCISSOR ; Punishment → TM move
-	db 47, CLOSE_COMBAT
-	db 50, GUNK_SHOT ; SV TM move
+	db 1, LOW_KICK ; Rock Smash → Low Kick
+	db 6, PURSUIT ; Taunt → New move
+	db 10, QUICK_ATTACK
+	db 14, VENOSHOCK ; SV Tm Move
+	db 18, METAL_CLAW
+	db 24, POISON_JAB
+	db 28, ROCK_SMASH ; Brick Break
+	db 32, HONE_CLAWS
+	db 36, SLASH
+	db 40, AGILITY
+	db 44, SCREECH
+	db 48, CLOSE_COMBAT
 	db -1 ; no more level-up moves
 
 TeddiursaEvosAttacks:
@@ -6026,22 +6021,23 @@ MantykeEvosAttacks:
 
 WeavileEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, NIGHT_SLASH ; evolution move
+	db 1, NASTY_PLOT ; PLA move
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, BITE ; Taunt → egg move
-	db 8, QUICK_ATTACK
-	db 10, FEINT_ATTACK
-	db 14, ICE_SHARD ; Icy Wind → Ice Shard
+	db 1, PURSUIT ; Taunt → Egg move
+	db 6, ICY_WIND ; TM move
+	db 10, QUICK_ATTACK
 	db 16, FURY_STRIKES ; Fury Swipes → similar move
-	db 20, NASTY_PLOT
-	db 22, METAL_CLAW
-	db 25, HONE_CLAWS
-	db 28, ICICLE_CRASH ; Fling → egg move
-	db 32, SCREECH
-	db 35, NIGHT_SLASH
-	db 40, HEALINGLIGHT ; Snatch → event move (Moonlight)
-	db 44, X_SCISSOR ; Punishment → TM move
-	db 47, CRUNCH ; Dark Pulse → new move
+	db 20, METAL_CLAW
+	db 26, ICE_SHARD 
+	db 30, FEINT_ATTACK
+	db 36, HONE_CLAWS
+	db 39, SLASH
+	db 44, AGILITY
+	db 48, SCREECH
+	db 54, ICICLE_CRASH ; Beat Up → egg move
+	db 60, DARK_PULSE
 	db -1 ; no more level-up moves
 
 MagnezoneEvosAttacks:
@@ -6483,23 +6479,23 @@ UrsalunaEvosAttacks:
 
 SneaslerEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, GUNK_SHOT ; evolution move
+	db 1, SWORDS_DANCE ; PLA move
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, BITE ; Taunt → egg move
-	db 8, QUICK_ATTACK
-	db 10, FEINT_ATTACK
-	db 14, LOW_KICK ; Rock Smash → Low Kick
-	db 16, FURY_STRIKES ; Fury Swipes → similar move
-	db 20, AGILITY
-	db 22, METAL_CLAW
-	db 25, HONE_CLAWS
-	db 28, POISON_JAB
-	db 32, SCREECH
-	db 35, SLASH
-	db 40, SWORDS_DANCE
-	db 44, X_SCISSOR ; Punishment → TM move
-	db 47, CLOSE_COMBAT
-	db 50, GUNK_SHOT ; SV TM move
+	db 1, LOW_KICK ; Rock Smash → Low Kick
+	db 6, PURSUIT ; Taunt → New move
+	db 10, QUICK_ATTACK
+	db 16, VENOSHOCK ; SV Tm Move
+	db 20, METAL_CLAW
+	db 26, POISON_JAB
+	db 30, ROCK_SMASH ; Brick Break
+	db 36, HONE_CLAWS
+	db 39, SLASH
+	db 44, AGILITY
+	db 48, SCREECH
+	db 54, CLOSE_COMBAT
+	db 60, SLUDGE_BOMB
 	db -1 ; no more level-up moves
 
 OverqwilEvosAttacks:
