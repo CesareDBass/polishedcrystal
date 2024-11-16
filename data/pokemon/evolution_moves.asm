@@ -198,7 +198,7 @@ else
 endc
 	db NO_MOVE      ; YANMA
 	db NO_MOVE      ; WOOPER
-	db AMNESIA	; QUAGSIRE
+	db AMNESIA      ; QUAGSIRE
 	db CONFUSION    ; ESPEON
 	db PURSUIT      ; UMBREON
 	db NO_MOVE      ; MURKROW
