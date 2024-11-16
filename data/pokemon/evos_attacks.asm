@@ -4590,50 +4590,51 @@ WooperPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, LEER ; Tail Whip → similar move
-	db 5, MUD_SLAP ; Mud Sport → TM move
-	db 9, SCARY_FACE ; Mud Shot → event move
+	db 4, MUD_SLAP; Mud Sport → TM move
+	db 9, WATER_PULSE ; Mud Shot → TM move
+	db 12, RAIN_DANCE
 	db 15, HEADBUTT ; Slam → tutor move
-	db 19, RECOVER ; Mud Bomb → egg move
-	db 23, AMNESIA
-	db 29, BELLY_DRUM ; Yawn → event move
-	db 33, EARTHQUAKE
-	db 37, RAIN_DANCE
-	db 43, HAZE
-	db 47, AQUA_TAIL ; Muddy Water → event move
+	db 21, RECOVER ; Yawn → egg move
+	db 24, AQUA_TAIL
+	db 28, BELLY_DRUM ; Muddy Water → event move
+	db 32, AMNESIA 
+	db 36, TOXIC
+	db 40, EARTHQUAKE
 	db -1 ; no more level-up moves
 
 WooperPaldeanEvosAttacks:
 	evo_data EVOLVE_LEVEL, 20, CLODSIRE
 	db -1 ; no more evolutions
-	db 1, MUD_SLAP ; Mud Shot → similar move
+	db 1, TACKLE
 	db 1, LEER ; Tail Whip → similar move
-	db 5, TACKLE
-	db 9, POISON_STING ; Poison Tail → similar move
+	db 4, MUD_SLAP ; Mud Shot → similar move
+	db 9, VENOSHOCK, ; Poison Tail → TM Move
+	db 12, TOXIC_SPIKES
 	db 15, HEADBUTT ; Slam → tutor move
-	db 19, RECOVER ; Mud Bomb → egg move
-	db 23, AMNESIA
-	db 29, BELLY_DRUM ; Yawn → event move
-	db 33, EARTHQUAKE
-	db 37, POISON_JAB
-	db 43, TOXIC_SPIKES
-	db 47, GUNK_SHOT ; Sludge Wave → similar move
+	db 21, RECOVER ; Yawn → egg move
+	db 24, POISON_JAB
+	db 28, BELLY_DRUM ; Sludge Wave → event move
+	db 32, AMNESIA 
+	db 36, TOXIC
+	db 40, EARTHQUAKE
 	db -1 ; no more level-up moves
 
 QuagsireEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, ANCIENTPOWER ; evolution move
-	db 1, WATER_GUN
+	db 1, AMNESIA ; evolution move
+	db 1 WATER_GUN
 	db 1, LEER ; Tail Whip → similar move
-	db 5, MUD_SLAP ; Mud Sport → TM move
-	db 9, SCARY_FACE ; Mud Shot → event move
-	db 15, HEADBUTT ; Slam → tutor move
-	db 19, RECOVER ; Mud Bomb → egg move
-	db 24, AMNESIA
-	db 31, BELLY_DRUM ; Yawn → event move
-	db 36, EARTHQUAKE
-	db 41, RAIN_DANCE
-	db 48, HAZE
-	db 53, AQUA_TAIL ; Muddy Water → event move
+	db 4, MUD_SLAP; Mud Shot → similar move
+	db 8, WATER_PULSE ; Poison Tail → TM Move
+	db 12, RAIN_DANCE
+	db 16, HEADBUTT ; Slam → tutor move
+	db 23, RECOVER ; Yawn → egg move
+	db 26, AQUA_TAIL
+	db 30, BELLY_DRUM ; Sludge Wave → event move
+	db 35, HAZE 
+	db 40, TOXIC
+	db 46, EARTHQUAKE
+	db 52, HYDRO_PUMP ; Muddy Water → TM move
 	db -1 ; no more level-up moves
 
 EspeonEvosAttacks:
@@ -6560,19 +6561,20 @@ DudunsparceEvosAttacks:
 
 ClodsireEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, MEGAHORN ; evolution move
-	db 1, MUD_SLAP ; Mud Shot → similar move
+	db 1, AMNESIA ; evolution move
+	db 1, POISON_STING
 	db 1, LEER ; Tail Whip → similar move
-	db 5, TACKLE
-	db 9, POISON_STING ; Poison Tail → similar move
-	db 15, HEADBUTT ; Slam → tutor move
-	db 19, RECOVER ; Mud Bomb → egg move
-	db 24, AMNESIA
-	db 31, BELLY_DRUM ; Yawn → event move
-	db 36, EARTHQUAKE
-	db 41, POISON_JAB
-	db 48, TOXIC_SPIKES
-	db 53, GUNK_SHOT ; Sludge Wave → similar move
+	db 4, MUD_SLAP ; Mud Shot → similar move
+	db 8, VENOSHOCK, ; Poison Tail → TM Move
+	db 12, TOXIC_SPIKES
+	db 16, HEADBUTT ; Slam → tutor move
+	db 23, RECOVER ; Yawn → egg move
+	db 26, POISON_JAB
+	db 30, BELLY_DRUM ; Sludge Wave → event move
+	db 35, MEGAHORN 
+	db 40, TOXIC
+	db 46, EARTHQUAKE
+	db 52, GUNK_SHOT ; TM move
 	db -1 ; no more level-up moves
 
 AnnihilapeEvosAttacks:
