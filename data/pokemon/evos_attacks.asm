@@ -1280,46 +1280,44 @@ MankeyEvosAttacks:
 	evo_data EVOLVE_LEVEL, 28, PRIMEAPE
 	db -1 ; no more evolutions
 	db 1, SCRATCH
-	db 1, LOW_KICK
 	db 1, LEER
 	db 1, FOCUS_ENERGY
 	db 5, FURY_STRIKES ; Fury Swipes → similar move
-	db 8, KARATE_CHOP
-	db 12, PURSUIT
+	db 8, LOW_KICK
+	db 12, KARATE_CHOP
 	db 15, SEISMIC_TOSS
-	db 19, SWAGGER
+	db 18, SWAGGER
 	db 22, CROSS_CHOP
-	db 26, REVERSAL ; Assurance → egg move
-	db 29, FEINT_ATTACK ; Punishment → new move
-	db 33, THRASH
-	db 36, CLOSE_COMBAT
-	db 40, SCREECH
-	db 43, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
-	db 47, OUTRAGE
+	db 26, PURSUIT
+	db 29, THRASH
+	db 33, CLOSE_COMBAT
+	db 36, SCREECH
+	db 40, BULLDOZE
+	db 44, OUTRAGE
+	db 48, FOCUS_BLAST
 	db -1 ; no more level-up moves
 
 PrimeapeEvosAttacks:
 	evo_data EVOLVE_MOVE, OUTRAGE, ANNIHILAPE
 	db -1 ; no more evolutions
+	db 1, RAGE ; evolution move
 	db 1, OUTRAGE
-	db 1, RAGE
 	db 1, SCRATCH
-	db 1, LOW_KICK
 	db 1, LEER
 	db 1, FOCUS_ENERGY
 	db 5, FURY_STRIKES ; Fury Swipes → similar move
-	db 8, KARATE_CHOP
-	db 12, PURSUIT
+	db 8, LOW_KICK
+	db 12, KARATE_CHOP
 	db 15, SEISMIC_TOSS
-	db 19, SWAGGER
+	db 18, SWAGGER
 	db 22, CROSS_CHOP
-	db 26, REVERSAL ; Assurance → egg move
-	db 30, FEINT_ATTACK ; Punishment → new move
-	db 35, THRASH
-	db 39, CLOSE_COMBAT
-	db 44, SCREECH
-	db 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
-	db 53, OUTRAGE
+	db 26, PURSUIT
+	db 30, THRASH
+	db 35, CLOSE_COMBAT
+	db 39, SCREECH
+	db 44, OUTRAGE
+	db 48, EARTHQUAKE
+	db 53, FOCUS_BLAST
 	db -1 ; no more level-up moves
 
 GrowlithePlainEvosAttacks:
@@ -6581,24 +6579,24 @@ AnnihilapeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SHADOW_CLAW ; Shadow Punch → similar move ; evolution move
 	db 1, OUTRAGE
-	db 1, RAGE
+	db 1, COUNTER
+	db 1, RAGE ; evolution move
 	db 1, SCRATCH
-	db 1, LOW_KICK
 	db 1, LEER
 	db 1, FOCUS_ENERGY
 	db 5, FURY_STRIKES ; Fury Swipes → similar move
-	db 8, KARATE_CHOP
-	db 12, PURSUIT
+	db 8, LOW_KICK
+	db 12, KARATE_CHOP
 	db 15, SEISMIC_TOSS
-	db 19, SWAGGER
+	db 18, SWAGGER
 	db 22, CROSS_CHOP
-	db 26, REVERSAL ; Assurance → egg move
-	db 30, FEINT_ATTACK ; Punishment → new move
-	db 35, THRASH
-	db 39, CLOSE_COMBAT
-	db 44, SCREECH
-	db 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
-	db 53, OUTRAGE
+	db 26, PURSUIT
+	db 30, THRASH
+	db 35, CLOSE_COMBAT
+	db 39, SCREECH
+	db 44, OUTRAGE
+	db 50, EARTHQUAKE
+	db 55, FOCUS_BLAST
 	db -1 ; no more level-up moves
 
 EggEvosAttacks::
