@@ -2993,11 +2993,11 @@ ScytherEvosAttacks:
 	db 21, WING_ATTACK
 	db 25, BUG_BITE ; Fury Cutter → similar move
 	db 29, SLASH
-	db 33, GLARE ; Razor Wind → new move
+	db 33, AERIAL_ACE ; Razor Wind → PLA move
 	db 37, DOUBLE_TEAM
 	db 41, X_SCISSOR
 	db 45, NIGHT_SLASH
-	db 49, CLOSE_COMBAT ; Double Hit → SV TM move
+	db 49, CLOSE_COMBAT ; Double Hit → PLA move
 	db 50, AIR_SLASH
 	db 57, SWORDS_DANCE
 	db -1 ; no more level-up moves
@@ -5004,21 +5004,21 @@ QwilfishHisuianEvosAttacks:
 
 ScizorEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, METAL_CLAW ; evolution move
-	db 1, BULLET_PUNCH
+	db 1, BULLET_PUNCH ; evolution move
+	db 1, WING_ATTACK
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 5, FOCUS_ENERGY
 	db 9, PURSUIT
 	db 13, FALSE_SWIPE
 	db 17, AGILITY
-	db 21, WING_ATTACK
+	db 21, METAL_CLAW
 	db 25, BUG_BITE ; Fury Cutter → similar move
 	db 29, SLASH
-	db 33, BUG_BUZZ ; Razor Wind → egg move
-	db 37, DEFENSE_CURL ; Iron Defense → similar move
+	db 33, AERIAL_ACE ; Razor Wind → PLA move
+	db 37, STEEL_WING ; Iron Defense → Defense up move that fits
 	db 41, X_SCISSOR
-	db 45, CRUNCH ; Night Slash → Prism tutor move
+	db 45, NIGHT_SLASH
 	db 49, CLOSE_COMBAT ; Double Hit → SV TM move
 	db 50, IRON_HEAD
 	db 57, SWORDS_DANCE
@@ -6435,22 +6435,23 @@ WyrdeerEvosAttacks:
 
 KleavorEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, ROCK_THROW ; evolution move
+	db 1, ROCK_BLAST ; evolution move ; Stone Axe → SV TM move
+	db 1, AIR_SLASH
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 5, FOCUS_ENERGY
 	db 9, PURSUIT
 	db 13, FALSE_SWIPE
 	db 17, AGILITY
-	db 21, AERIAL_ACE
+	db 21, ROCK_THROW ; Smack Down → new move
 	db 25, BUG_BITE ; Fury Cutter → similar move
 	db 29, SLASH
-	db 33, GLARE ; Razor Wind → new move
-	db 37, ROCK_BLAST ; Stealth Rock → new move
+	db 33, AERIAL_ACE ; Razor Wind → PLA move
+	db 37, DOUBLE_TEAM
 	db 41, X_SCISSOR
-	db 45, NIGHT_SLASH ; Night Slash → Prism tutor move
+	db 45, NIGHT_SLASH
 	db 49, CLOSE_COMBAT ; Double Hit → SV TM move
-	db 50, STONE_EDGE ; Stone Axe → new move
+	db 50, ROCK_SLIDE
 	db 57, SWORDS_DANCE
 	db -1 ; no more level-up moves
 
