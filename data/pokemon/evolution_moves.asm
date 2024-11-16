@@ -293,7 +293,7 @@ endc
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
 	db NO_MOVE      ; FARIGIRAF
-	db AMNESIA	; CLODSIRE
+	db AMNESIA      ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
 	assert_table_length NUM_SPECIES
 
