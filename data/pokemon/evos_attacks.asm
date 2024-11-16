@@ -4963,49 +4963,43 @@ GranbullEvosAttacks:
 
 QwilfishPlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, WATER_GUN
-	db 1, SPIKES
 	db 1, TACKLE
 	db 1, POISON_STING
-	db 5, DEFENSE_CURL ; Harden → TM move
-	db 9, MINIMIZE
-	db 13, BUBBLE_BEAM ; Bubble → similar move
-	db 17, ROLLOUT
-	db 21, TOXIC_SPIKES
-	db 25, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
-	db 29, REVERSAL ; Revenge → Sw/Sh move
-	db 33, WATER_PULSE ; Brine → TM move
-	db 37, PIN_MISSILE
-	db 41, TAKE_DOWN
-	db 45, AQUA_TAIL
-	db 49, POISON_JAB
-	db 53, DESTINY_BOND
-	db 57, HYDRO_PUMP
-	db 60, DOUBLE_EDGE ; Fell Stinger → event move
+	db 4, DEFENSE_CURL ; Harden → TM move
+	db 9, WATER_GUN
+	db 13, ROLLOUT ; Fell Stinger → TM move
+	db 17, MINIMIZE
+	db 21, SPIKES
+	db 25, BUBBLE_BEAM ; Brine → Egg Move
+	db 29, POISON_JAB
+	db 33, PIN_MISSILE
+	db 36, TOXIC_SPIKES
+	db 41, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
+	db 45, TOXIC
+	db 48, AQUA_TAIL
+	db 52, HYDRO_PUMP ; Acupressure → SV TM move
+	db 57, DESTINY_BOND
 	db -1 ; no more level-up moves
 
 QwilfishHisuianEvosAttacks:
 	evo_data EVOLVE_LEVEL, 33, OVERQWIL
 	db -1 ; no more evolutions
-	db 1, AQUA_JET ; Water Gun → SV TM move
-	db 1, SPIKES
 	db 1, TACKLE
 	db 1, POISON_STING
-	db 5, DEFENSE_CURL ; Harden → TM move
-	db 9, MINIMIZE
-	db 13, PIN_MISSILE
-	db 17, ROLLOUT
-	db 21, TOXIC_SPIKES
-	db 25, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
-	db 29, REVERSAL ; Revenge → Sw/Sh move
-	db 33, WATER_PULSE ; Brine → TM move
-	db 37, CRUNCH ; Dark Pulse → SV TM move
-	db 41, TAKE_DOWN
-	db 45, AQUA_TAIL
-	db 49, POISON_JAB
-	db 53, DESTINY_BOND
-	db 57, EXPLOSION ; Self-Destruct → similar move
-	db 60, DOUBLE_EDGE ; Fell Stinger → event move
+	db 4, DEFENSE_CURL ; Harden → TM move
+	db 9, BITE
+	db 13, TAKE_DOWN ; Fell Stinger → SV TM move
+	db 17, MINIMIZE
+	db 21, SPIKES
+	db 25, BUBBLE_BEAM ; Brine → Egg Move
+	db 29, POISON_JAB
+	db 33, PIN_MISSILE
+	db 36, TOXIC_SPIKES
+	db 41, PAIN_SPLIT ; Stockpile + Spit Up → SV TM move
+	db 45, TOXIC
+	db 48, CRUNCH
+	db 52, HYDRO_PUMP ; Acupressure → SV TM move
+	db 57, DESTINY_BOND
 	db -1 ; no more level-up moves
 
 ScizorEvosAttacks:
@@ -6510,25 +6504,23 @@ SneaslerEvosAttacks:
 
 OverqwilEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, AQUA_JET ; Water Gun → SV TM move
-	db 1, SPIKES
 	db 1, TACKLE
 	db 1, POISON_STING
-	db 5, DEFENSE_CURL ; Harden → TM move
-	db 9, MINIMIZE
-	db 13, PIN_MISSILE
-	db 17, ROLLOUT
-	db 21, TOXIC_SPIKES
-	db 25, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
-	db 29, REVERSAL ; Revenge → Sw/Sh move
-	db 33, WATER_PULSE ; Brine → TM move
-	db 37, CRUNCH ; Dark Pulse → SV TM move
-	db 41, TAKE_DOWN
-	db 45, AQUA_TAIL
-	db 49, POISON_JAB
-	db 53, DESTINY_BOND
-	db 57, EXPLOSION ; Self-Destruct → similar move
-	db 60, DOUBLE_EDGE ; Fell Stinger → event move
+	db 4, DEFENSE_CURL ; Harden → TM move
+	db 9, BITE
+	db 13, TAKE_DOWN ; Fell Stinger → SV TM move
+	db 17, MINIMIZE
+	db 21, SPIKES
+	db 25, BUBBLE_BEAM ; Brine → Egg Move
+	db 29, POISON_JAB
+	db 33, PIN_MISSILE
+	db 38, TOXIC_SPIKES
+	db 43, PAIN_SPLIT ; Stockpile + Spit Up → SV TM move
+	db 46, TOXIC
+	db 49, CRUNCH
+	db 54, HYDRO_PUMP ; Acupressure → SV TM move
+	db 58, DESTINY_BOND
+	db 63, EXPLOSION ; Self-Destruct → similar move
 	db -1 ; no more level-up moves
 
 DudunsparceEvosAttacks:
