@@ -5110,18 +5110,16 @@ TeddiursaEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL ; Baby-Doll Eyes → similar move
 	db 1, LICK
-	db 1, FOCUS_ENERGY ; Fake Tears → egg move
 	db 8, FURY_STRIKES ; Fury Swipes → similar move
-	db 15, FEINT_ATTACK
-	db 22, BELLY_DRUM ; Sweet Scent → egg move
-	db 25, PLAY_ROUGH ; Play Nice → egg move
-	db 29, SLASH
-	db 36, CHARM
-	db 43, REST
-	db 43, CRUNCH ; Snore → egg move
-	db 50, THRASH
-	db 57, CLOSE_COMBAT ; Fling → new move
-	db 64, DOUBLE_EDGE ; new move
+	db 13, FEINT_ATTACK
+	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
+	db 22, SLASH
+	db 25, BELLY_DRUM ; Play Nice → egg move
+	db 29, PLAY_ROUGH
+	db 33, CHARM
+	db 37, REST
+	db 37, SLEEP_TALK ; Snore → TM move + Similar idea
+	db 41, THRASH
 	db -1 ; no more level-up moves
 
 UrsaringEvosAttacks:
@@ -5129,23 +5127,22 @@ UrsaringEvosAttacks:
 	evo_data EVOLVE_LOCATION, SINJOH_RUINS, URSALUNA
 	evo_data EVOLVE_LOCATION, MYSTRI_STAGE, URSALUNA
 	db -1 ; no more evolutions
-	db 1, GUNK_SHOT ; HGSS tutor move
 	db 1, THIEF ; Covet → TM move
 	db 1, SCRATCH
-	db 1, LEER
+	db 1, GROWL ; Baby-Doll Eyes → similar move
 	db 1, LICK
-	db 1, FOCUS_ENERGY ; Fake Tears → egg move
 	db 8, FURY_STRIKES ; Fury Swipes → similar move
-	db 15, FEINT_ATTACK
-	db 22, BELLY_DRUM ; Sweet Scent → egg move
-	db 25, PLAY_ROUGH ; Play Nice → egg move
-	db 29, SLASH
-	db 38, SCARY_FACE
-	db 47, REST
-	db 49, CRUNCH ; Snore → egg move
-	db 58, THRASH
-	db 67, CLOSE_COMBAT ; Hammer Arm → new move
-	db 76, DOUBLE_EDGE ; new move
+	db 13, FEINT_ATTACK
+	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
+	db 22, SLASH
+	db 25, BELLY_DRUM ; Play Nice → egg move
+	db 29, PLAY_ROUGH
+	db 35, SCARY_FACE
+	db 41, REST
+	db 43, SLEEP_TALK ; Snore → TM move + Similar idea
+	db 47, DIG ; High Horsepower → TM move
+	db 52, THRASH
+	db 56, CLOSE_COMBAT ; Hammer Arm → new move
 	db -1 ; no more level-up moves
 
 SlugmaEvosAttacks:
@@ -6458,24 +6455,23 @@ KleavorEvosAttacks:
 UrsalunaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, BULLDOZE ; evolution move
-	db 1, GUNK_SHOT ; HGSS tutor move
 	db 1, THIEF ; Covet → TM move
 	db 1, SCRATCH
-	db 1, LEER
+	db 1, GROWL ; Baby-Doll Eyes → similar move
 	db 1, LICK
-	db 1, FOCUS_ENERGY ; Fake Tears → egg move
 	db 8, FURY_STRIKES ; Fury Swipes → similar move
-	db 15, FEINT_ATTACK
-	db 22, BELLY_DRUM ; Sweet Scent → egg move
-	db 25, PLAY_ROUGH ; Play Nice → egg move
-	db 29, SLASH
-	db 38, SCARY_FACE
-	db 47, REST
-	db 49, CRUNCH ; Snore → egg move
-	db 58, THRASH
-	db 67, CLOSE_COMBAT ; Hammer Arm → SV TM move
-	db 76, DOUBLE_EDGE ; new move
-	db 85, GUNK_SHOT ; SV TM move
+	db 13, FEINT_ATTACK
+	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
+	db 22, SLASH
+	db 25, BELLY_DRUM ; Play Nice → egg move
+	db 29, PLAY_ROUGH
+	db 36, SCARY_FACE
+	db 42, REST
+	db 44, SLEEP_TALK ; Snore → TM move + Similar idea
+	db 48, DIG ; High Horsepower → TM move
+	db 54, THRASH
+	db 58, CLOSE_COMBAT ; Hammer Arm → new move
+	db 64, DOUBLE_EDGE ; new move
 	db -1 ; no more level-up moves
 
 SneaslerEvosAttacks:
