@@ -3814,8 +3814,8 @@ TyphlosionPlainEvosAttacks:
 TyphlosionHisuianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SHADOW_CLAW ; evolution move
-	db 1, ASTONISH ; new move
 	db 1, EXTRASENSORY
+	db 1, DIG
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
