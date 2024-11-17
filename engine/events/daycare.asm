@@ -977,6 +977,9 @@ DayCare_GenerateEgg:
 	jr nc, .shiny_charm_done
 	inc c
 	inc c
+	inc c
+	inc c
+	inc c
 .shiny_charm_done
 	; The "Masuda method" in the official games is a shiny booster
 	; for when parents of different nationalities trade. Consider
