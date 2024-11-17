@@ -2960,24 +2960,25 @@ StarmieEvosAttacks:
 
 MrMimePlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, BARRIER
+	db 1, ENERGY_BALL
 	db 1, CONFUSION
-	db 4, HYPNOSIS ; Copycat → egg move
-	db 8, CALM_MIND ; Meditate → TM move
+	db 1, TACKLE  ; Pound → similar move
+	db 1, HYPNOSIS ; Copycat → egg move
+	db 4, BATON_PASS
+	db 8, ENCORE
 	db 11, DOUBLE_SLAP
-	db 13, PROTECT ; Mimic → event move
-	db 15, METRONOME ; Psywave → RBY TM move
-	db 18, ENCORE
-	db 22, LIGHT_SCREEN
-	db 22, REFLECT
+	db 15, TRICK
+	db 18, PROTECT ; Mimic → event move
+	db 22, SUBSTITUTE ; Recycle → Substitute
 	db 25, PSYBEAM
-	db 29, SUBSTITUTE
-	db 32, CONFUSE_RAY ; Recycle → egg move
-	db 36, TRICK
-	db 39, PSYCHIC_M
-	db 43, FUTURE_SIGHT ; Role Play → egg move
-	db 46, BATON_PASS
-	db 50, SAFEGUARD
+	db 30, BARRIER
+	db 35, LIGHT_SCREEN
+	db 35, REFLECT
+	db 38, SAFEGUARD
+	db 42, SUCKER_PUNCH
+	db 45, DAZZLINGLEAM
+	db 48, PSYCHIC_M
+	db 52, FUTURE_SIGHT ; Teeter Dance → Gen 8 learnset
 	db -1 ; no more level-up moves
 
 ScytherEvosAttacks:
@@ -5939,25 +5940,24 @@ MimeJrEvosAttacks:
 	evo_data EVOLVE_LEVEL, 30, MR__MIME, PLAIN_FORM
 	evo_data EVOLVE_ITEM, ICE_STONE, MR__MIME, GALARIAN_FORM
 	db -1 ; no more evolutions
-	db 1, BARRIER
 	db 1, CONFUSION
 	db 1, TACKLE  ; Pound → similar move
-	db 4, HYPNOSIS ; Copycat → egg move
-	db 8, CALM_MIND ; Meditate → TM move
+	db 1, HYPNOSIS ; Copycat → egg move
+	db 4, BATON_PASS
+	db 8, ENCORE
 	db 11, DOUBLE_SLAP
-	db 13, PROTECT ; Mimic → event move
-	db 15, METRONOME ; Psywave → RBY TM move
-	db 18, ENCORE
-	db 22, LIGHT_SCREEN
-	db 22, REFLECT
+	db 15, TRICK
+	db 18, PROTECT ; Mimic → event move
+	db 22, SUBSTITUTE ; Recycle → Substitute
 	db 25, PSYBEAM
-	db 29, SUBSTITUTE
-	db 32, CONFUSE_RAY ; Recycle → egg move
-	db 36, TRICK
-	db 39, PSYCHIC_M
-	db 43, FUTURE_SIGHT ; Role Play → egg move
-	db 46, BATON_PASS
-	db 50, SAFEGUARD
+	db 30, BARRIER
+	db 33, LIGHT_SCREEN
+	db 33, REFLECT
+	db 37, SAFEGUARD
+	db 40, SUCKER_PUNCH
+	db 43, DAZZLINGLEAM
+	db 46, PSYCHIC_M
+	db 50, FUTURE_SIGHT ; Teeter Dance → Gen 8 learnset
 	db -1 ; no more level-up moves
 
 HappinyEvosAttacks:
@@ -6385,28 +6385,25 @@ MrMimeGalarianEvosAttacks:
 	evo_data EVOLVE_LEVEL, 42, MR__RIME
 MrRimeEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, RECOVER ; Slack Off → similar move
-	db 1, ENCORE
-	db 1, PROTECT
-	db 1, LIGHT_SCREEN
-	db 1, REFLECT
-	db 1, SAFEGUARD
 	db 1, DAZZLINGLEAM
-	db 1, TACKLE ; Pound → similar move
-	db 1, RAPID_SPIN
-	db 1, BATON_PASS
-	db 1, ICE_SHARD
-	db 12, CONFUSION
-	db 16, METRONOME ; Ally Switch → TR move
-	db 20, ICY_WIND
-	db 24, DOUBLE_KICK
-	db 28, PSYBEAM
-	db 32, HYPNOSIS
-	db 36, MIRROR_COAT
-	db 40, SUCKER_PUNCH
-	db 44, ICE_BEAM ; Freeze-Dry → TR move
+	db 1, CONFUSION
+	db 1, TACKLE  ; Pound → similar move
+	db 1, HYPNOSIS ; Copycat → egg move
+	db 4, BATON_PASS
+	db 8, ENCORE
+	db 11, ICE_SHARD
+	db 15, TRICK
+	db 18, PROTECT ; Mimic → event move
+	db 22, DOUBLE_KICK
+	db 25, PSYBEAM
+	db 30, BARRIER
+	db 35, ICY_WIND
+	db 35, RAPID_SPIN
+	db 38, MIRROR_COAT
+	db 42, SUCKER_PUNCH
+	db 45, ICE_BEAM ; Freeze-Dry → TR move
 	db 48, PSYCHIC_M
-	db 52, CONFUSE_RAY ; Teeter Dance → egg move
+	db 52, FUTURE_SIGHT ; Teeter Dance → Gen 8 learnset
 	db -1 ; no more level-up moves
 
 WyrdeerEvosAttacks:
