@@ -1961,15 +1961,15 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
 	; party
 	dbp 16, PIDGEY
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 36 HP, 36 Spe
 		db TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
 	dbp 17, MARILL
-		db NO_ITEM, "@"
+		db NO_ITEM, "Bubbles@"
 		ev_spread 72 Atk
 		db DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH ; default for level
 	dbp 15, MAREEP
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 36 HP, 36 SAt
 		db THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP, SPARK ; default for level
 	dbp 18, BAYLEEF
@@ -1983,13 +1983,13 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 16, PIDGEY
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 36 HP, 36 Spe
 	dbp 17, SUNKERN
-		db NO_ITEM, "@"
+		db NO_ITEM, "Sunbo@"
 		ev_spread 36 SAt, 36 Spe
 	dbp 15, MAREEP
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 36 HP, 36 SAt
 	dbp 18, QUILAVA
 		db ORAN_BERRY, "Cinder@"
@@ -2001,13 +2001,13 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 16, PIDGEY
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 36 HP, 36 Spe
-	dbp 17, GROWLITHE
-		db NO_ITEM, "@"
+	dbp 17, GROWLITHE | HISUIAN_FORM
+		db NO_ITEM, "Archy@"
 		ev_spread 36 HP, 36 Atk
 	dbp 15, MAREEP
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 36 HP, 36 SAt
 	dbp 18, CROCONAW
 		db ORAN_BERRY, "Toto@"
@@ -2019,16 +2019,16 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 33, PIDGEOTTO
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 100 HP, 100 Spe
-	dbp 34, GROWLITHE
-		db NO_ITEM, "@"
+	dbp 34, GROWLITHE | HISUIAN_FORM
+		db NO_ITEM, "Archy@"
 		ev_spread 100 HP, 100 Atk
 	dbp 34, AZUMARILL
-		db NO_ITEM, "@"
+		db NO_ITEM, "Bubbles@"
 		ev_spread 200 Atk
 	dbp 32, FLAAFFY
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 100 HP, 100 SAt
 	dbp 37, BAYLEEF
 		db ORAN_BERRY, "Chicory@"
@@ -2040,16 +2040,16 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 33, PIDGEOTTO
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 100 HP, 100 Spe
 	dbp 34, SUNFLORA
-		db NO_ITEM, "@"
+		db NO_ITEM, "Sunbo@"
 		ev_spread 100 SAt, 100 Spe
 	dbp 34, AZUMARILL
-		db NO_ITEM, "@"
+		db NO_ITEM, "Bubbles@"
 		ev_spread 200 Atk
 	dbp 32, FLAAFFY
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 100 HP, 100 SAt
 	dbp 37, QUILAVA
 		db ORAN_BERRY, "Cinder@"
@@ -2061,16 +2061,16 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 33, PIDGEOTTO
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 100 HP, 100 Spe
 	dbp 34, SUNFLORA
-		db NO_ITEM, "@"
+		db NO_ITEM, "Sunbo@"
 		ev_spread 100 SAt, 100 Spe
-	dbp 34, GROWLITHE
-		db NO_ITEM, "@"
+	dbp 34, GROWLITHE | HISUIAN_FORM
+		db NO_ITEM, "Archy@"
 		ev_spread 100 HP, 100 Atk
 	dbp 32, FLAAFFY
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 100 HP, 100 SAt
 	dbp 37, CROCONAW
 		db ORAN_BERRY, "Toto@"
@@ -2082,19 +2082,19 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 44, PIDGEOT
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 132 HP, 132 Spe
 	dbp 43, GIRAFARIG
-		db NO_ITEM, "@"
+		db NO_ITEM, "Gigi@"
 		ev_spread 132 Atk, 132 Spe
-	dbp 45, ARCANINE
-		db NO_ITEM, "@"
+	dbp 45, ARCANINE | HISUIAN_FORM
+		db NO_ITEM, "Archy@"
 		ev_spread 132 HP, 132 Atk
 	dbp 45, AZUMARILL
-		db NO_ITEM, "@"
+		db NO_ITEM, "Bubbles@"
 		ev_spread 252 Atk, 12 Spe
 	dbp 46, AMPHAROS
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 132 HP, 132 SAt
 	dbp 47, MEGANIUM
 		db SITRUS_BERRY, "Chicory@"
@@ -2106,19 +2106,19 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 44, PIDGEOT
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 132 HP, 132 Spe
 	dbp 43, GIRAFARIG
-		db NO_ITEM, "@"
+		db NO_ITEM, "Gigi@"
 		ev_spread 132 Atk, 132 Spe
 	dbp 45, SUNFLORA
-		db NO_ITEM, "@"
+		db NO_ITEM, "Sunbo@"
 		ev_spread 132 SAt, 132 Spe
 	dbp 45, AZUMARILL
-		db NO_ITEM, "@"
+		db NO_ITEM, "Bubbles@"
 		ev_spread 252 Atk, 12 Spe
 	dbp 46, AMPHAROS
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 132 HP, 132 SAt
 	dbp 47, TYPHLOSION
 		db SITRUS_BERRY, "Cinder@"
@@ -2130,19 +2130,19 @@ Lyra1Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
 	dbp 44, PIDGEOT
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
 		ev_spread 132 HP, 132 Spe
 	dbp 43, GIRAFARIG
-		db NO_ITEM, "@"
+		db NO_ITEM, "Gigi@"
 		ev_spread 132 Atk, 132 Spe
 	dbp 45, SUNFLORA
-		db NO_ITEM, "@"
+		db NO_ITEM, "Sunbo@"
 		ev_spread 132 SAt, 132 Spe
-	dbp 45, ARCANINE
-		db NO_ITEM, "@"
+	dbp 45, ARCANINE | HISUIAN_FORM
+		db NO_ITEM, "Archy@"
 		ev_spread 132 HP, 132 Atk
 	dbp 46, AMPHAROS
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
 		ev_spread 132 HP, 132 SAt
 	dbp 47, FERALIGATR
 		db SITRUS_BERRY, "Toto@"
@@ -2158,17 +2158,24 @@ Lyra2Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
 	dbp 69, PIDGEOT
-		db NO_ITEM, "@"
-	dbp 70, ARCANINE
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
+		db HURRICANE, EXTREMESPEED, FOCUS_BLAST, ROOST
+	dbp 70, ARCANINE | HISUIAN_FORM
+		db NO_ITEM, "Archy@"
+		db FLARE_BLITZ, ROCK_SLIDE, HEALINGLIGHT, SUNNY_DAY
 	dbp 70, AZUMARILL
-		db NO_ITEM, "@"
+		db SITRUS_BERRY, "Bubbles@"
+		db AQUA_TAIL, PLAY_ROUGH, RAIN_DANCE, BELLY_DRUM
 	dbp 71, AMPHAROS
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
+		db THUNDERBOLT, DRAGON_PULSE, DAZZLINGLEAM, AGILITY
 	dbp 68, FARIGIRAF
-		db NO_ITEM, "@"
+		db NO_ITEM, "Gigi@"
+		db ZEN_HEADBUTT, DARK_PULSE, EARTHQUAKE, CALM_MIND
 	dbp 72, MEGANIUM
 		db SITRUS_BERRY, "Chicory@"
+		db GIGA_DRAIN, DAZZLINGLEAM, ANCIENTPOWER, LEECH_SEED
+
 	db -1 ; end
 
 	; LYRA2
@@ -2176,17 +2183,23 @@ Lyra2Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
 	dbp 69, PIDGEOT
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
+		db HURRICANE, EXTREMESPEED, FOCUS_BLAST, ROOST
 	dbp 70, SUNFLORA
-		db NO_ITEM, "@"
+		db NO_ITEM, "Sunbo@"
+		db EARTH_POWER, SOLAR_BEAM, FLAMETHROWER, SUNNY_DAY
 	dbp 70, AZUMARILL
-		db NO_ITEM, "@"
+		db NO_ITEM, "Bubbles@"
+		db AQUA_TAIL, PLAY_ROUGH, RAIN_DANCE, BELLY_DRUM
 	dbp 71, AMPHAROS
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
+		db THUNDERBOLT, DRAGON_PULSE, DAZZLINGLEAM, AGILITY
 	dbp 68, FARIGIRAF
-		db NO_ITEM, "@"
+		db NO_ITEM, "Gigi@"
+		db ZEN_HEADBUTT, DARK_PULSE, HYPER_VOICE, CALM_MIND
 	dbp 72, TYPHLOSION
 		db SITRUS_BERRY, "Cinder@"
+		db FLAMETHROWER, EARTH_POWER, EXTRASENSORY, WILL_O_WISP
 	db -1 ; end
 
 	; LYRA2
@@ -2194,17 +2207,23 @@ Lyra2Group:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
 	dbp 69, PIDGEOT
-		db NO_ITEM, "@"
+		db NO_ITEM, "Tweety@"
+		db HURRICANE, EXTREMESPEED, FOCUS_BLAST, ROOST
 	dbp 70, SUNFLORA
-		db NO_ITEM, "@"
-	dbp 70, ARCANINE
-		db NO_ITEM, "@"
+		db NO_ITEM, "Sunbo@"
+		db EARTH_POWER, SOLAR_BEAM, FLAMETHROWER, SUNNY_DAY
+	dbp 70, ARCANINE | HISUIAN_FORM
+		db NO_ITEM, "Archy@"
+		db FLARE_BLITZ, ROCK_SLIDE, EXTREMESPEED, HEALINGLIGHT
 	dbp 71, AMPHAROS
-		db NO_ITEM, "@"
+		db NO_ITEM, "Amphary@"
+		db THUNDERBOLT, DRAGON_PULSE, DAZZLINGLEAM, AGILITY
 	dbp 68, FARIGIRAF
-		db NO_ITEM, "@"
+		db NO_ITEM, "Gigi@"
+		db ZEN_HEADBUTT, DARK_PULSE, ENERGY_BALL, CALM_MIND
 	dbp 72, FERALIGATR
 		db SITRUS_BERRY, "Toto@"
+		db WATERFALL, CRUNCH, ICE_PUNCH, DRAGON_DANCE
 	db -1 ; end
 
 
@@ -9592,9 +9611,9 @@ VeteranMGroup:
 	dbp 38, NOCTOWL
 		db QUICK_CLAW
 		db REFLECT, PSYCHIC_M, SHADOW_BALL, AIR_SLASH
-	dbp 39, ARCANINE
+	dbp 39, ARCANINE | HISUIAN_FORM
 		db CHARCOAL
-		db FLAME_CHARGE, FLAMETHROWER, DOUBLE_KICK, TAKE_DOWN
+		db FLAME_CHARGE, FLAMETHROWER, DOUBLE_KICK, ROCK_SLIDE
 	dbp 37, SANDSLASH
 		db HARD_STONE
 		db SLASH, EARTHQUAKE, DEFENSE_CURL, ROLLOUT
