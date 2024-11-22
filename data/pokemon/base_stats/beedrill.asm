@@ -4,6 +4,7 @@ if DEF(FAITHFUL)
 else
 	db  65, 100,  40, 105,  45,  90 ; 445 BST
 	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db BUG, POISON ; type
 	db 45 ; catch rate
