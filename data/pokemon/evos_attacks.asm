@@ -4621,7 +4621,7 @@ WooperPaldeanEvosAttacks:
 QuagsireEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, AMNESIA ; evolution move
-	db 1 WATER_GUN
+	db 1, WATER_GUN
 	db 1, LEER ; Tail Whip → similar move
 	db 4, MUD_SLAP; Mud Shot → similar move
 	db 8, WATER_PULSE ; Poison Tail → TM Move
