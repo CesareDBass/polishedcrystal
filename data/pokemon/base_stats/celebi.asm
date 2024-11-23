@@ -1,11 +1,7 @@
 	db 100, 100, 100, 100, 100, 100 ; 600 BST
 	;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
 	db PSYCHIC, GRASS ; type
-else
-	db GRASS, FAIRY ; type
-endc
 	db 45 ; catch rate
 	db 64 ; base exp
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
