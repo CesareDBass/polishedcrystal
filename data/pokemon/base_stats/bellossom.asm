@@ -6,11 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-if DEF(FAITHFUL)
 	db GRASS, GRASS ; type
-else
-	db GRASS, FAIRY ; type
-endc
 	db 45 ; catch rate
 if DEF(FAITHFUL)
 	db 184 ; base exp
