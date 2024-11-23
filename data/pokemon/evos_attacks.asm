@@ -4954,11 +4954,14 @@ GranbullEvosAttacks:
 	db 7, BITE
 	db 13, LICK
 	db 19, HEADBUTT
+	db 24, DOUBLE_KICK ; New move
 	db 27, ROAR
 	db 35, RAGE
+	db 38, LOW_KICK ; New TM move
 	db 43, PLAY_ROUGH
 	db 51, DOUBLE_EDGE ; Payback → event move
 	db 59, CRUNCH
+	db 63, CLOSE_COMBAT
 	db 67, OUTRAGE
 	db -1 ; no more level-up moves
 
