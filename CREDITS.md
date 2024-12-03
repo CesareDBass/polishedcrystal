@@ -94,7 +94,7 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * Kuroko Aizawa, bloodless, and metalflygon08 for help with Pikachu's sprites.
 * jpmac26 for editing the Pokémon Center signs and fixing a typo.
 * Sea for Crys's fishing sprites.
-* SageDeoxys for the update Kleavor, Porygon-Z and Dudunsparce sprites
+* SageDeoxys for the update Kleavor, Porygon-Z and Dudunsparce sprites, and for the new palette on the Shiny Clefable line
 * CesareCBass (myself) for making updated sprites for Aroma Lady and Kathy, updating icons from Sour to 9bits and spriting the Male Protagonist
 
 
