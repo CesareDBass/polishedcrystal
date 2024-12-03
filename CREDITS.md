@@ -28,6 +28,7 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * SadisticMystic, sinusoidal, TKOWL and Kate Dering for vanilla battle engine testing and documentation.
 * ax6 and NieDzejkob for developing and optimizing lzcomp.
 * Kurausukun and earthoul for translating battle mechanics information from the Japanese Pokémon wiki.
+* [TAG]1Kilo for helping me build the Rom and changing the Protagonist coloration in the OW
 
 
 ## Music
@@ -56,7 +57,7 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * Acrozz for many HGSS Pokémon palettes, and sprites and animations of Magikarp forms.
 * Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.
 * Megaman-Omega for some of Prism's overworld sprites.
-* SoupPotato (aka SourApple) for many Pokémon sprites, move animations, and the Ace Duo and Soldier sprites.
+* SoupPotato (aka SourApple) for many Pokémon sprites, Pokemon Icons, move animations, and the Ace Duo and Soldier sprites.
 * flempa for some Pokémon sprites and move animations and for Galarian Articuno and Galarian Zapdos animations.
 * ShockSlayer for the Gen 1 and 2 mini icons and for Yellow's overworld sprite.
 * Scarlax for many new Pokémon animations.
@@ -68,11 +69,11 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * spritershawn for sprites of Red, Blue, and Green.
 * isamuakai01 for sprites of Steven and Cynthia.
 * Maddalena for sprites of Imakuni and the Ghost.
-* Nuuk for the sprite and animation of Farigiraf.
+* Nuuk for the sprite and animation of Farigiraf and various other Pokemon sprites added.
 * EeveeEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
 * trainerlass for sprites of Galarian Slowpoke and Slowbro, Katy's sprites, and Crys's back sprite.
 * Luna for some sprites and tiles.
-* SteppoBlazer for Flying and Surfing Pikachu's mini icons.
+* SteppoBlazer for Flying Pikachu's mini icons.
 * Twilir for Lyra's back sprite.
 * Danny-E for Lorelei's sprite.
 * Nic7C5 for Yellow's sprite.
@@ -93,6 +94,8 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * Kuroko Aizawa, bloodless, and metalflygon08 for help with Pikachu's sprites.
 * jpmac26 for editing the Pokémon Center signs and fixing a typo.
 * Sea for Crys's fishing sprites.
+* SageDeoxys for the update Kleavor, Porygon-Z and Dudunsparce sprites
+* CesareCBass (myself) for making updated sprites for Aroma Lady and Kathy, updating icons from Sour to 9bits and spriting the Male Protagonist
 
 
 ## Content
@@ -103,6 +106,7 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * ShockSlayer for Eusine's losing text.
 * Hello for correcting composers in the music player.
 * Salamandar for Battle Tower sets.
+* Rookie Hacker Lala for modify the Orange Island trainers and wild pokemon and gave me pass to use it
 
 
 ## Special Thanks
