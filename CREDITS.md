@@ -28,7 +28,7 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * SadisticMystic, sinusoidal, TKOWL and Kate Dering for vanilla battle engine testing and documentation.
 * ax6 and NieDzejkob for developing and optimizing lzcomp.
 * Kurausukun and earthoul for translating battle mechanics information from the Japanese Pokémon wiki.
-* [TAG]1Kilo for helping me build the Rom and changing the Protagonist coloration in the OW
+* [TAG]1Kilo for helping me build the Rom and changing the Protagonist coloration in the OW, and fix the issue with all mons having Hidden Abilities
 
 
 ## Music
