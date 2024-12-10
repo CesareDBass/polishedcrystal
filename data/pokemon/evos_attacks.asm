@@ -4185,7 +4185,7 @@ TogepiEvosAttacks:
 	db 9, SWEET_KISS
 	db 13, SING ; Yawn → similar move
 	db 17, ENCORE
-	db 21, DIZZY_PUNCH ; Follow Me → new move
+	db 21, DOUBLE_SLAP ; Follow Me → new move
 	db 25, HEAL_BELL ; Bestow → HGSS tutor move
 	db 29, FRESH_SNACK ; Wish → new move
 	db 33, ANCIENTPOWER
@@ -4206,7 +4206,7 @@ TogeticEvosAttacks:
 	db 9, SWEET_KISS
 	db 13, SING ; Yawn → similar move
 	db 17, ENCORE
-	db 21, DIZZY_PUNCH ; Follow Me → new move
+	db 21, DOUBLE_SLAP ; Follow Me → new move
 	db 25, HEAL_BELL ; Bestow → HGSS tutor move
 	db 29, FRESH_SNACK ; Wish → new move
 	db 33, ANCIENTPOWER
@@ -4344,9 +4344,10 @@ MarillEvosAttacks:
 	evo_data EVOLVE_LEVEL, 18, AZUMARILL
 	db -1 ; no more evolutions
 	db 1, TACKLE
-	db 2, GROWL ; Tail Whip → new move
-	db 5, FORESIGHT ; Water Sport → egg move
-	db 7, AQUA_JET ; Bubble → egg move
+	db 1, GROWL ; Tail Whip → new move
+	db 2, FORESIGHT ; Water Sport → egg move
+	db 5, AQUA_JET ; Bubble → egg move
+	db 7, DOUBLE_SLAP ; New move
 	db 10, DEFENSE_CURL
 	db 10, ROLLOUT
 	db 13, BUBBLE_BEAM
@@ -4363,9 +4364,10 @@ MarillEvosAttacks:
 AzumarillEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
-	db 2, GROWL ; Tail Whip → new move
-	db 5, FORESIGHT ; Water Sport → egg move
-	db 7, AQUA_JET ; Bubble → egg move
+	db 1, GROWL ; Tail Whip → new move
+	db 2, FORESIGHT ; Water Sport → egg move
+	db 5, AQUA_JET ; Bubble → egg move
+	db 7, DOUBLE_SLAP ; New move
 	db 10, DEFENSE_CURL
 	db 10, ROLLOUT
 	db 13, BUBBLE_BEAM
@@ -4936,6 +4938,7 @@ SnubbullEvosAttacks:
 	db 1, SCARY_FACE
 	db 1, LEER ; Tail Whip → similar move
 	db 1, CHARM
+	db 4, DOUBLE_SLAP ; New Move
 	db 7, BITE
 	db 13, LICK
 	db 19, HEADBUTT
@@ -4952,6 +4955,7 @@ GranbullEvosAttacks:
 	db 1, SCARY_FACE
 	db 1, LEER ; Tail Whip → similar move
 	db 1, CHARM
+	db 4, DOUBLE_SLAP ; New Move
 	db 7, BITE
 	db 13, LICK
 	db 19, HEADBUTT
