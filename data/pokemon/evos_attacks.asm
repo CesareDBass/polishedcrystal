@@ -5114,7 +5114,7 @@ TeddiursaEvosAttacks:
 	db 1, THIEF ; Covet → TM move
 	db 1, SCRATCH
 	db 1, GROWL ; Baby-Doll Eyes → similar move
-	db 1, LICK
+	db 4, LICK
 	db 8, FURY_STRIKES ; Fury Swipes → similar move
 	db 13, FEINT_ATTACK
 	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
@@ -5136,7 +5136,7 @@ UrsaringEvosAttacks:
 	db 1, THIEF ; Covet → TM move
 	db 1, SCRATCH
 	db 1, GROWL ; Baby-Doll Eyes → similar move
-	db 1, LICK
+	db 4, LICK
 	db 8, FURY_STRIKES ; Fury Swipes → similar move
 	db 13, FEINT_ATTACK
 	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
@@ -6458,11 +6458,12 @@ KleavorEvosAttacks:
 
 UrsalunaEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, FORESIGHT ; New move referencing Odor sleuth and Ursaluna great smell sense
 	db 1, BULLDOZE ; evolution move
 	db 1, THIEF ; Covet → TM move
 	db 1, SCRATCH
 	db 1, GROWL ; Baby-Doll Eyes → similar move
-	db 1, LICK
+	db 4, LICK
 	db 8, FURY_STRIKES ; Fury Swipes → similar move
 	db 13, FEINT_ATTACK
 	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
