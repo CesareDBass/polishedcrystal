@@ -311,7 +311,7 @@ if DEF(FAITHFUL)
 	next "2-5 times."
 	done
 else
-	text "Cutesy slap the"
+	text "Cutely slap the"
 	next "foe twice."
 	done
 endc
