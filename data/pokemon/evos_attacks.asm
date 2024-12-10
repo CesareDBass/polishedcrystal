@@ -4854,7 +4854,7 @@ DunsparceEvosAttacks:
 	db 17, FURY_STRIKES ; Drill Run → event move (Fury Attack)
 	db 20, ANCIENTPOWER
 	db 23, SCREECH
-	db 25; BODY_SLAM ; Slam → Similar move
+	db 25, BODY_SLAM ; Slam → Similar move
 	db 28, HYPNOSIS ; Yawn → Similar move
 	db 32, DIG ; Hyper Drill → Foreshadowing
 	db 34, ROOST
@@ -6525,7 +6525,6 @@ OverqwilEvosAttacks:
 DudunsparceEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, REVERSAL ; Flail → similar move
-	db 1, ENDURE
 	db 1, RAGE
 	db 1, DEFENSE_CURL
 	db 3, MUD_SLAP; Spite → egg move
@@ -6535,7 +6534,7 @@ DudunsparceEvosAttacks:
 	db 17, FURY_STRIKES ; Drill Run → event move (Fury Attack)
 	db 20, ANCIENTPOWER
 	db 23, SCREECH
-	db 25; BODY_SLAM ; Slam → Similar move
+	db 25, BODY_SLAM ; Slam → Similar move
 	db 28, HYPNOSIS ; Yawn → Similar move
 	db 32, DIG ; Hyper Drill → Foreshadowing
 	db 36, ROOST
