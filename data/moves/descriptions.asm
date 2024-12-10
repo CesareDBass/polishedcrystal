@@ -306,9 +306,15 @@ DrainKissDescription:
 	done
 
 DoubleSlapDescription:
+if DEF(FAITHFUL)
 	text "Repeatedly slaps"
 	next "2-5 times."
 	done
+else
+	text "Cutesy slap the"
+	next "foe twice."
+	done
+endc
 
 FuryStrikesDescription:
 	text "Scratches or jabs"
