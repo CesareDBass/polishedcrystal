@@ -4852,8 +4852,9 @@ DunsparceEvosAttacks:
 	db 11, PURSUIT
 	db 14, GLARE
 	db 17, FURY_STRIKES ; Drill Run → event move (Fury Attack)
-	db 21, ANCIENTPOWER
-	db 24, SCREECH
+	db 20, ANCIENTPOWER
+	db 23, SCREECH
+	db 25; BODY_SLAM ; Slam → Similar move
 	db 28, HYPNOSIS ; Yawn → Similar move
 	db 32, DIG ; Hyper Drill → Foreshadowing
 	db 34, ROOST
@@ -5118,12 +5119,13 @@ TeddiursaEvosAttacks:
 	db 13, FEINT_ATTACK
 	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
 	db 22, SLASH
-	db 25, BELLY_DRUM ; Play Nice → egg move
+	db 25, CRUNCH ; Play Nice → egg move
 	db 29, PLAY_ROUGH
 	db 33, CHARM
 	db 37, REST
 	db 37, SLEEP_TALK ; Snore → TM move + Similar idea
 	db 41, THRASH
+	db 45, BELLY_DRUM
 	db -1 ; no more level-up moves
 
 UrsaringEvosAttacks:
@@ -5139,14 +5141,16 @@ UrsaringEvosAttacks:
 	db 13, FEINT_ATTACK
 	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
 	db 22, SLASH
-	db 25, BELLY_DRUM ; Play Nice → egg move
+	db 25, CRUNCH ; Play Nice → egg move
 	db 29, PLAY_ROUGH
 	db 35, SCARY_FACE
+	db 38, DOUBLE_EDGE
 	db 41, REST
 	db 43, SLEEP_TALK ; Snore → TM move + Similar idea
 	db 47, DIG ; High Horsepower → TM move
 	db 52, THRASH
 	db 56, CLOSE_COMBAT ; Hammer Arm → new move
+	db 61, BELLY_DRUM
 	db -1 ; no more level-up moves
 
 SlugmaEvosAttacks:
@@ -6444,11 +6448,11 @@ KleavorEvosAttacks:
 	db 25, BUG_BITE ; Fury Cutter → similar move
 	db 29, SLASH
 	db 33, AERIAL_ACE ; Razor Wind → PLA move
-	db 37, DOUBLE_TEAM
+	db 37, ROCK_SLIDE
 	db 41, X_SCISSOR
 	db 45, NIGHT_SLASH
 	db 49, CLOSE_COMBAT ; Double Hit → SV TM move
-	db 50, ROCK_SLIDE
+	db 50, STONE_EDGE
 	db 57, SWORDS_DANCE
 	db -1 ; no more level-up moves
 
@@ -6463,15 +6467,16 @@ UrsalunaEvosAttacks:
 	db 13, FEINT_ATTACK
 	db 17, MUD_SLAP ; Sweet Scent → GSC TM move
 	db 22, SLASH
-	db 25, BELLY_DRUM ; Play Nice → egg move
+	db 25, CRUNCH ; Play Nice → egg move
 	db 29, PLAY_ROUGH
 	db 36, SCARY_FACE
+	db 39, DOUBLE_EDGE
 	db 42, REST
 	db 44, SLEEP_TALK ; Snore → TM move + Similar idea
 	db 48, DIG ; High Horsepower → TM move
 	db 54, THRASH
 	db 58, CLOSE_COMBAT ; Hammer Arm → new move
-	db 64, DOUBLE_EDGE ; new move
+	db 64, BELLY_DRUM ; egg move
 	db -1 ; no more level-up moves
 
 SneaslerEvosAttacks:
@@ -6518,7 +6523,6 @@ OverqwilEvosAttacks:
 
 DudunsparceEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, BODY_SLAM
 	db 1, REVERSAL ; Flail → similar move
 	db 1, ENDURE
 	db 1, RAGE
@@ -6528,8 +6532,9 @@ DudunsparceEvosAttacks:
 	db 11, PURSUIT
 	db 14, GLARE
 	db 17, FURY_STRIKES ; Drill Run → event move (Fury Attack)
-	db 21, ANCIENTPOWER
-	db 24, SCREECH
+	db 20, ANCIENTPOWER
+	db 23, SCREECH
+	db 25; BODY_SLAM ; Slam → Similar move
 	db 28, HYPNOSIS ; Yawn → Similar move
 	db 32, DIG ; Hyper Drill → Foreshadowing
 	db 36, ROOST
