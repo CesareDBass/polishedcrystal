@@ -1,3 +1,4 @@
+
 MACRO evo_data
 	db \1 ; evolution type
 	if \1 == EVOLVE_PARTY
@@ -1996,25 +1997,23 @@ MagnetonEvosAttacks:
 
 FarfetchDPlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, POISON_JAB
 	db 1, BATON_PASS ; Brave Bird → event move
 	db 1, PECK
 	db 1, MUD_SLAP ; Sand Attack → similar move
-	db 1, LEER
+	db 3, LEER
 	db 7, FURY_STRIKES ; Fury Attack → similar move
-	db 9, AERIAL_ACE
-	db 13, KNOCK_OFF
-	db 15, RAZOR_LEAF ; LGPE move
-	db 19, SLASH
-	db 21, KARATE_CHOP ; Air Cutter → new move
-	db 25, SWORDS_DANCE
-	db 31, AGILITY
-	db 33, NIGHT_SLASH
-	db 37, ACROBATICS
-	db 43, HI_JUMP_KICK ; Feint → new move
-	db 45, FALSE_SWIPE
-	db 49, AIR_SLASH
+	db 11, FALSE_SWIPE ; Cut → False Swipe
+	db 16, CUT ; False Swipe → Cut
+	db 21, AERIAL_ACE
+	db 25; RAZOR_LEAF ; LGPE move
+	db 28, KNOCK_OFF
+	db 33, SLASH
+	db 36, SWORDS_DANCE
+	db 40, AGILITY ; Air Slash → Agility
+	db 45, POISON_JAB ; Leaf Blade → Poison Jab
+	db 49, NIGHT_SLASH
 	db 55, BRAVE_BIRD
+	db 62, HI_JUMP_KICK ; Feint → new move
 	db -1 ; no more level-up moves
 
 FarfetchDGalarianEvosAttacks:
@@ -2022,27 +2021,19 @@ FarfetchDGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PECK
 	db 1, MUD_SLAP ; Sand Attack → similar move
-	db 5, LEER
-	db 10, QUICK_ATTACK ; Fury Cutter → egg move
-if DEF(FAITHFUL)
-	db 15, ROCK_SMASH
-else
-	db 15, REVERSAL ; Rock Smash → TM move
-endc
-	db 20, FEINT_ATTACK ; Brutal Swing → similar move
-	db 25, PROTECT ; Detect → similar move
-	db 30, KNOCK_OFF
-	db 35, STEEL_WING ; Defog → TM move
-if DEF(FAITHFUL)
-	db 40, NIGHT_SLASH ; Brick Break → egg move
-else
-	db 40, ROCK_SMASH ; Brick Break
-endc
-	db 45, SWORDS_DANCE
-	db 50, BODY_SLAM ; Slam → TR move
-	db 55, POISON_JAB ; Leaf Blade → TR move
-	db 60, CLOSE_COMBAT ; Final Gambit → TR move
-	db 65, BRAVE_BIRD
+	db 3, LEER
+	db 7, FURY_STRIKES ; Fury Cutter → similar idea
+	db 11, REVERSAL ; Rock Smash → TM move
+	db 16, STEEL_WING ; Defog → TM move
+	db 21, FEINT_ATTACK ; Brutal Swing → similar move
+	db 25; RAZOR_LEAF ; LGPE move
+	db 28, KNOCK_OFF
+	db 33, DRAIN_PUNCH ; Brick Break → New Move
+	db 36, SWORDS_DANCE
+	db 40, POISON_JAB ; Slam → TR Move
+	db 45, POWER_WHIP ; Leaf Blade → "Leaf Blade at home"
+	db 49, NIGHT_SLASH
+	db 55, BRAVE_BIRD
 	db -1 ; no more level-up moves
 
 DoduoEvosAttacks:
@@ -5241,42 +5232,42 @@ PiloswineEvosAttacks:
 
 CorsolaPlainEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, BARRIER ; Iron Defense → similar move
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Harden → similar move
 	db 4, WATER_GUN ; Bubble → similar move
 	db 8, ROLLOUT ; Recover → TM move
-	db 10, BUBBLE_BEAM
-	db 13, SAFEGUARD ; Refresh → egg move
+	db 12, ENDURE ; Refresh → Endure
 	db 17, ANCIENTPOWER
-	db 20, ICICLE_SPEAR ; Spike Cannon → egg move
-	db 23, CONFUSE_RAY ; Lucky Chant → egg move
-	db 27, ENDURE ; Brine → Endure
-	db 29, BARRIER ; Iron Defense → similar move
-	db 31, ROCK_BLAST
-	db 35, RECOVER ; Endure → Recover
-	db 38, HYDRO_PUMP ; Aqua Ring → Sw/Sh move
+	db 22, ICICLE_SPEAR ; Spike Cannon → egg move
+	db 25, BUBBLE_BEAM
+	db 29, REVERSAL ; Flail → similar move
+	db 32, ROCK_BLAST
+	db 38, RECOVER ; Aqua Ring → Recover
 	db 41, POWER_GEM
-	db 45, MIRROR_COAT
+	db 44, MIRROR_COAT
 	db 47, EARTH_POWER
-	db 50, REVERSAL ; Flail → similar move
+	db 50, HYDRO_PUMP ; Aqua Ring → Sw/Sh move
 	db -1 ; no more level-up moves
 
 CorsolaGalarianEvosAttacks:
 	evo_data EVOLVE_LEVEL, 38, CURSOLA, PLAIN_FORM
 	db -1 ; no more evolutions
+	db 1, HAZE ; Spite → egg move
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Harden → similar move
-	db 5, ASTONISH
-	db 10, DISABLE
-	db 15, HAZE ; Spite → egg move
-	db 20, ANCIENTPOWER
-	db 25, HEX
-	db 30, CURSE
-	db 35, GIGA_DRAIN ; Strength Sap → TM move
-	db 40, POWER_GEM
-	db 45, NIGHT_SHADE
+	db 4, ASTONISH
+	db 8, ROLLOUT ; Recover → TM move
+	db 12, DISABLE
+	db 17, ANCIENTPOWER
+	db 23, HEX
+	db 29, CURSE
+	db 32, ROCK_BLAST
+	db 38, GIGA_DRAIN ; Strength Sap → TM move
+	db 41, POWER_GEM
+	db 44, MIRROR_COAT
+	db 47, NIGHT_SHADE
 	db 50, HYDRO_PUMP ; Grudge → TR move
-	db 55, MIRROR_COAT
 	db -1 ; no more level-up moves
 
 RemoraidEvosAttacks:
@@ -6347,49 +6338,43 @@ PerrserkerEvosAttacks:
 CursolaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PERISH_SONG
+	db 1, HAZE ; Spite → egg move
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Harden → similar move
-	db 1, ASTONISH
-	db 1, DISABLE
-	db 15, HAZE ; Spite → egg move
-	db 20, ANCIENTPOWER
-	db 25, HEX
-	db 30, CURSE
-	db 35, GIGA_DRAIN ; Strength Sap → TM move
-	db 40, POWER_GEM
-	db 45, NIGHT_SHADE
-	db 50, HYDRO_PUMP ; Grudge → TR move
-	db 55, MIRROR_COAT
+	db 4, ASTONISH
+	db 8, ROLLOUT ; Recover → TM move
+	db 12, DISABLE
+	db 17, ANCIENTPOWER
+	db 23, HEX
+	db 29, CURSE
+	db 32, ROCK_BLAST
+	db 38, GIGA_DRAIN ; Strength Sap → TM move
+	db 43, POWER_GEM
+	db 46, MIRROR_COAT
+	db 49, NIGHT_SHADE
+	db 55, HYDRO_PUMP ; Grudge → TR move
 	db -1 ; no more level-up moves
 
 SirfetchDEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, CUT ; Fury Cutter → HM move
 	db 1, COUNTER ; Iron Defense → egg move ; evolution move
-	db 1, QUICK_ATTACK ; First Impression → egg move
+	db 1, U_TURN ; First Impression → New move
 	db 1, PECK
 	db 1, MUD_SLAP ; Sand Attack → similar move
-	db 1, LEER
-if DEF(FAITHFUL)
-	db 15, ROCK_SMASH
-else
-	db 15, REVERSAL ; Rock Smash → TM move
-endc
-	db 20, FEINT_ATTACK ; Brutal Swing → similar move
-	db 25, PROTECT ; Detect → similar move
-	db 30, KNOCK_OFF
-	db 35, STEEL_WING ; Defog → TM move
-if DEF(FAITHFUL)
-	db 40, NIGHT_SLASH ; Brick Break → egg move
-else
-	db 40, ROCK_SMASH ; Brick Break
-endc
-	db 45, SWORDS_DANCE
-	db 50, BODY_SLAM ; Slam → TR move
-	db 55, POISON_JAB ; Leaf Blade → TR move
-	db 60, CLOSE_COMBAT ; Final Gambit → TR move
-	db 65, BRAVE_BIRD
-	db 70, GIGA_IMPACT ; Meteor Assault → similar move
+	db 3, LEER
+	db 7, FURY_STRIKES ; Fury Cutter → similar idea
+	db 11, REVERSAL ; Rock Smash → TM move
+	db 16, STEEL_WING ; Defog → TM move
+	db 21, FEINT_ATTACK ; Brutal Swing → similar move
+	db 25; RAZOR_LEAF ; LGPE move
+	db 28, KNOCK_OFF
+	db 33, DRAIN_PUNCH ; Brick Break → New Move
+	db 36, SWORDS_DANCE
+	db 40, POISON_JAB ; Slam → TR Move
+	db 45, POWER_WHIP ; Leaf Blade → "Leaf Blade at home"
+	db 49, NIGHT_SLASH
+	db 55, BRAVE_BIRD
+	db 62, CLOSE_COMBAT ; Meteor Assault → TR move
 	db -1 ; no more level-up moves
 
 MrMimeGalarianEvosAttacks:
