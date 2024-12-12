@@ -165,9 +165,9 @@ EvolutionMoves::
 	db NO_MOVE      ; HOOTHOOT
 	db NO_MOVE      ; NOCTOWL
 	db NO_MOVE      ; LEDYBA
-	db SWORDS_DANCE ; LEDIAN
+	db DRAIN_PUNCH  ; LEDIAN
 	db NO_MOVE      ; SPINARAK
-	db BUG_BITE     ; ARIADOS
+	db SWORDS_DANCE ; ARIADOS
 	db X_SCISSOR    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
