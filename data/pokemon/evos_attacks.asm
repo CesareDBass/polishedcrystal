@@ -3982,8 +3982,9 @@ LedybaEvosAttacks:
 	evo_data EVOLVE_LEVEL, 18, LEDIAN
 	db -1 ; no more evolutions
 	db 1, TACKLE
-	db 5, SUPERSONIC
-	db 8, SWIFT
+	db 1, SUPERSONIC
+	db 5, SWIFT
+	db 8, BUG_BITE ; Egg move
 	db 12, LIGHT_SCREEN
 	db 12, REFLECT
 	db 12, SAFEGUARD
@@ -3999,7 +4000,7 @@ LedybaEvosAttacks:
 
 LedianEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SWORDS_DANCE ; evolution move
+	db 1, DRAIN_PUNCH ; evolution move
 	db 1, TACKLE
 	db 1, DIZZY_PUNCH
 	db 5, SUPERSONIC
@@ -4009,12 +4010,14 @@ LedianEvosAttacks:
 	db 12, SAFEGUARD
 	db 15, MACH_PUNCH
 	db 20, BARRIER ; Silver Wind → event move
-	db 24, AURA_SPHERE ; Comet Punch → new move
+	db 24, SWORDS_DANCE ; Comet Punch → TM move
 	db 29, BATON_PASS
-	db 33, AGILITY
-	db 38, BUG_BUZZ
+	db 33, BUG_BUZZ
+	db 35, FOCUS_BLAST ; TM move
+	db 38, AGILITY
 	db 42, AIR_SLASH
 	db 47, DOUBLE_EDGE
+	db 53, AURA_SPHERE ; New move
 	db -1 ; no more level-up moves
 
 SpinarakEvosAttacks:
@@ -4027,22 +4030,24 @@ SpinarakEvosAttacks:
 	db 8, GLARE ; Infestation → new move
 	db 12, SCARY_FACE
 	db 15, NIGHT_SHADE
-	db 19, GROWTH ; Shadow Sneak → event move
-	db 22, FURY_STRIKES ; Fury Swipes → similar move
-	db 26, SUCKER_PUNCH
-	db 29, MEAN_LOOK ; Spider Web → similar move
+	db 19, FEINT_ATTACK ; Shadow Sneak → new move
+	db 22, BUG_BITE
+	db 26, MEAN_LOOK ; Spider Web → similar move
+	db 29, PIN_MISSILE
 	db 33, AGILITY
-	db 36, PIN_MISSILE
+	db 36, SUCKER_PUNCH
 	db 40, PSYCHIC_M
-	db 43, POISON_JAB
+	db 43, DARK_PULSE
 	db 47, LEECH_LIFE ; Cross Poison → TM move
-	db 50, FEINT_ATTACK ; Sticky Web → new move
+	db 50, POISON_JAB
+	db 54, NIGHT_SLASH ; Toxic Thread → Egg move
 	db -1 ; no more level-up moves
 
 AriadosEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, BUG_BITE ; evolution move
+	db 1, SWORDS_DANCE ; evolution move
 	db 1, FOCUS_ENERGY
+	db 1, GROWTH ; Fell Stinger → event move
 	db 1, POISON_STING
 	db 1, STRING_SHOT
 	db 1, WRAP ; Constrict → similar move
@@ -4050,16 +4055,18 @@ AriadosEvosAttacks:
 	db 8, GLARE ; Infestation → new move
 	db 12, SCARY_FACE
 	db 15, NIGHT_SHADE
-	db 19, GROWTH ; Shadow Sneak → event move
+	db 19, FEINT_ATTACK ; Shadow Sneak → new move
+	db 22, BUG_BITE
 	db 23, FURY_STRIKES ; Fury Swipes → similar move
-	db 28, SUCKER_PUNCH
-	db 32, MEAN_LOOK ; Spider Web → similar move
-	db 37, AGILITY
-	db 41, PIN_MISSILE
-	db 46, PSYCHIC_M
-	db 50, POISON_JAB
-	db 55, LEECH_LIFE ; Cross Poison → TM move
-	db 58, FEINT_ATTACK ; Sticky Web → new move
+	db 28, MEAN_LOOK ; Spider Web → similar move
+	db 31, PIN_MISSILE
+	db 35, AGILITY
+	db 38, SUCKER_PUNCH
+	db 41, PSYCHIC_M
+	db 46, DARK_PULSE
+	db 50, LEECH_LIFE ; Cross Poison → TM move
+	db 54, POISON_JAB
+	db 59, NIGHT_SLASH ; Toxic Thread → Egg move
 	db -1 ; no more level-up moves
 
 CrobatEvosAttacks:
