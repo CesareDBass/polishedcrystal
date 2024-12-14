@@ -643,6 +643,8 @@ TogepiEggMoves:
 	db HEALINGLIGHT
 	db NASTY_PLOT
 	db PECK
+	db MOONBLAST
+	db AEROBLAST
 	db $ff
 
 NatuEggMoves:
