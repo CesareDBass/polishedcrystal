@@ -1870,19 +1870,21 @@ SlowpokePlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
-	db 5, GROWL
-	db 9, WATER_GUN
-	db 14, CONFUSION
-	db 19, DISABLE
-	db 23, HEADBUTT
-	db 28, WATER_PULSE
-	db 32, ZEN_HEADBUTT
-	db 36, SAFEGUARD ; Slack Off → egg move
-	db 41, AMNESIA
-	db 45, PSYCHIC_M
-	db 49, RAIN_DANCE
-	db 54, BELLY_DRUM ; Psych Up → egg move
-	db 58, RECOVER ; Heal Pulse → similar move
+	db 3, GROWL
+	db 6, WATER_GUN
+	db 9, HYPNOSIS ; Yawn → Similar move
+	db 12, CONFUSION
+	db 15, DISABLE
+	db 18, WATER_PULSE
+	db 21, HEADBUTT
+	db 24, ZEN_HEADBUTT
+	db 27, AMNESIA
+	db 30, SCALD ; Surf → SwSh TM move
+	db 33, RECOVER ; Slack Off → egg move
+	db 36, PSYCHIC_M
+	db 39, SAFEGUARD ; Psych Up → TM move
+	db 42, RAIN_DANCE
+	db 45, BELLY_DRUM ; Heal Pulse → egg move
 	db -1 ; no more level-up moves
 
 SlowpokeGalarianEvosAttacks:
@@ -1891,19 +1893,21 @@ SlowpokeGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
-	db 5, GROWL
-	db 9, ACID
-	db 14, CONFUSION
-	db 19, DISABLE
-	db 23, HEADBUTT
-	db 28, WATER_PULSE
-	db 32, ZEN_HEADBUTT
-	db 36, SAFEGUARD ; Slack Off → egg move
-	db 41, AMNESIA
-	db 45, PSYCHIC_M
-	db 49, RAIN_DANCE
-	db 54, BELLY_DRUM ; Psych Up → egg move
-	db 58, RECOVER ; Heal Pulse → similar move
+	db 3, GROWL
+	db 6, ACID
+	db 9, HYPNOSIS ; Yawn → Similar move
+	db 12, CONFUSION
+	db 15, DISABLE
+	db 18, WATER_PULSE
+	db 21, HEADBUTT
+	db 24, ZEN_HEADBUTT
+	db 27, AMNESIA
+	db 30, SCALD ; Surf → SwSh TM move
+	db 33, RECOVER ; Slack Off → egg move
+	db 36, PSYCHIC_M
+	db 39, SAFEGUARD ; Psych Up → TM move
+	db 42, RAIN_DANCE
+	db 45, BELLY_DRUM ; Heal Pulse → egg move
 	db -1 ; no more level-up moves
 
 SlowbroPlainEvosAttacks:
@@ -1911,39 +1915,45 @@ SlowbroPlainEvosAttacks:
 	db 1, DEFENSE_CURL ; Withdraw → similar move ; evolution move
 	db 1, CURSE
 	db 1, TACKLE
-	db 5, GROWL
-	db 9, WATER_GUN
-	db 14, CONFUSION
-	db 19, DISABLE
-	db 23, HEADBUTT
-	db 28, WATER_PULSE
-	db 32, ZEN_HEADBUTT
-	db 36, SAFEGUARD ; Slack Off → egg move
-	db 43, AMNESIA
-	db 49, PSYCHIC_M
-	db 55, RAIN_DANCE
-	db 62, BELLY_DRUM ; Psych Up → egg move
-	db 68, RECOVER ; Heal Pulse → similar move
+	db 3, GROWL
+	db 6, WATER_GUN
+	db 9, HYPNOSIS ; Yawn → Similar move
+	db 12, CONFUSION
+	db 15, DISABLE
+	db 18, WATER_PULSE
+	db 21, HEADBUTT
+	db 24, ZEN_HEADBUTT
+	db 27, AMNESIA
+	db 30, SCALD ; Surf → SwSh TM move
+	db 33, RECOVER ; Slack Off → egg move
+	db 36, PSYCHIC_M
+	db 41, SAFEGUARD ; Psych Up → TM move
+	db 46, RAIN_DANCE
+	db 51, BELLY_DRUM ; Heal Pulse → egg move
+	db 55, FUTURE_SIGHT ; SV Reminder move
 	db -1 ; no more level-up moves
 
 SlowbroGalarianEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, GUNK_SHOT ; Shell Side Arm → similar move ; evolution move
+	db 1, VENOSHOCK ; Shell Side Arm → similar idea ; evolution move
 	db 1, CURSE
 	db 1, TACKLE
-	db 5, GROWL
-	db 9, ACID
-	db 14, CONFUSION
-	db 19, DISABLE
-	db 23, HEADBUTT
-	db 28, WATER_PULSE
-	db 32, ZEN_HEADBUTT
-	db 36, SAFEGUARD ; Slack Off → egg move
-	db 43, AMNESIA
-	db 49, PSYCHIC_M
-	db 55, RAIN_DANCE
-	db 62, BELLY_DRUM ; Psych Up → egg move
-	db 68, RECOVER ; Heal Pulse → similar move
+	db 3, GROWL
+	db 6, WATER_GUN
+	db 9, HYPNOSIS ; Yawn → Similar move
+	db 12, CONFUSION
+	db 15, DISABLE
+	db 18, WATER_PULSE
+	db 21, HEADBUTT
+	db 24, ZEN_HEADBUTT
+	db 27, AMNESIA
+	db 30, SCALD ; Surf → SwSh TM move
+	db 33, RECOVER ; Slack Off → egg move
+	db 36, PSYCHIC_M
+	db 41, SAFEGUARD ; Psych Up → TM move
+	db 46, RAIN_DANCE
+	db 51, BELLY_DRUM ; Heal Pulse → egg move
+	db 55, GUNK_SHOT ; SV TM move
 	db -1 ; no more level-up moves
 
 MagnemiteEvosAttacks:
@@ -3239,9 +3249,10 @@ EeveeEvosAttacks:
 	db 25, TAKE_DOWN
 	db 29, CHARM
 	db 33, BATON_PASS
-	db 37, DOUBLE_EDGE
-	db 41, GROWTH ; Last Resort → event move
+	db 37, GROWTH ; Last Resort → event move
+	db 41, DOUBLE_EDGE
 	db 45, REVERSAL ; Trump Card → new move
+	db 50, HYPER_VOICE ; TM move
 	db -1 ; no more level-up moves
 
 VaporeonEvosAttacks:
@@ -3260,7 +3271,8 @@ VaporeonEvosAttacks:
 	db 33, HAZE
 	db 37, SCALD ; Muddy Water → TM move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
-	db 45, HYDRO_PUMP
+	db 45, RAIN_DANCE ; TM move
+	db 50, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
 JolteonEvosAttacks:
@@ -3272,14 +3284,15 @@ JolteonEvosAttacks:
 	db 5, MUD_SLAP ; Sand Attack → similar move
 	db 9, DOUBLE_KICK ; Baby-Doll Eyes → LGPE move
 	db 13, QUICK_ATTACK
-	db 17, DOUBLE_KICK
+	db 17, SPARK ; New move
 	db 20, LIGHT_SCREEN ; Thunder Fang → TM move
 	db 25, PIN_MISSILE
 	db 29, AGILITY
 	db 33, THUNDER_WAVE
 	db 37, THUNDERBOLT ; Discharge → TM move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
-	db 45, THUNDER
+	db 45, RAIN_DANCE ; TM Move
+	db 50, THUNDER
 	db -1 ; no more level-up moves
 
 FlareonEvosAttacks:
@@ -3298,7 +3311,8 @@ FlareonEvosAttacks:
 	db 33, SMOKESCREEN ; Smog → new move
 	db 37, FLAMETHROWER ; Lava Plume → new move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
-	db 45, FLARE_BLITZ
+	db 45, SUNNY_DAY ; TM move
+	db 50, FLARE_BLITZ
 	db -1 ; no more level-up moves
 
 PorygonEvosAttacks:
@@ -4650,9 +4664,10 @@ EspeonEvosAttacks:
 	db 25, FUTURE_SIGHT
 	db 29, REFLECT ; Psych Up → event move
 	db 33, HEALINGLIGHT ; Morning Sun → similar move
-	db 37, PSYCHIC_M
+	db 37, EXTRASENSORY ; New move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
 	db 45, POWER_GEM ; Power Swap → SV TM move
+	db 50, PSYCHIC_M
 	db -1 ; no more level-up moves
 
 UmbreonEvosAttacks:
@@ -4672,6 +4687,7 @@ UmbreonEvosAttacks:
 	db 37, SUCKER_PUNCH ; Mean Look → tutor move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
 	db 45, MEAN_LOOK ; Guard Swap → Mean Look
+	db 50, CRUNCH ; SV Tm move
 	db -1 ; no more level-up moves
 
 MurkrowEvosAttacks:
@@ -4696,45 +4712,51 @@ MurkrowEvosAttacks:
 
 SlowkingPlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, POWER_GEM
-	db 1, HIDDEN_POWER
+	db 1, POWER_GEM ; New evolution move
+	db 1, SWAGGER
 	db 1, CURSE
 	db 1, TACKLE
-	db 5, GROWL
-	db 9, WATER_GUN
-	db 14, CONFUSION
-	db 19, DISABLE
-	db 23, HEADBUTT
-	db 28, WATER_PULSE
-	db 32, ZEN_HEADBUTT
-	db 36, NASTY_PLOT
-	db 41, SWAGGER
-	db 45, PSYCHIC_M
-	db 49, RAIN_DANCE ; Trump Card → TM move
-	db 54, BELLY_DRUM ; Psych Up → egg move
-	db 58, RECOVER ; Heal Pulse → similar move
+	db 3, GROWL
+	db 6, WATER_GUN
+	db 9, HYPNOSIS ; Yawn → Similar move
+	db 12, CONFUSION
+	db 15, DISABLE
+	db 18, WATER_PULSE
+	db 21, HEADBUTT
+	db 24, ZEN_HEADBUTT
+	db 27, AMNESIA
+	db 30, SCALD ; Surf → SwSh TM move
+	db 33, RECOVER ; Slack Off → egg move
+	db 36, PSYCHIC_M
+	db 41, SAFEGUARD ; Psych Up → TM move
+	db 46, RAIN_DANCE
+	db 51, NASTY_PLOT ; Heal Pulse → Nasty Plot
+	db 55, FUTURE_SIGHT ; SV Reminder move
 	db -1 ; no more level-up moves
 
 SlowkingGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, HEX ; Eerie Spell → Sw/Sh TR move ; evolution move
 	db 1, POWER_GEM
-	db 1, HIDDEN_POWER
+	db 1, SWAGGER
 	db 1, CURSE
 	db 1, TACKLE
-	db 5, GROWL
-	db 9, ACID
-	db 14, CONFUSION
-	db 19, DISABLE
-	db 23, HEADBUTT
-	db 28, WATER_PULSE
-	db 32, ZEN_HEADBUTT
-	db 36, NASTY_PLOT
-	db 41, SWAGGER
-	db 45, PSYCHIC_M
-	db 49, RAIN_DANCE ; Trump Card → TM move
-	db 54, BELLY_DRUM ; Psych Up → egg move
-	db 58, RECOVER ; Heal Pulse → similar move
+	db 3, GROWL
+	db 6, WATER_GUN
+	db 9, HYPNOSIS ; Yawn → Similar move
+	db 12, CONFUSION
+	db 15, DISABLE
+	db 18, WATER_PULSE
+	db 21, HEADBUTT
+	db 24, ZEN_HEADBUTT
+	db 27, AMNESIA
+	db 30, SCALD ; Surf → SwSh TM move
+	db 33, RECOVER ; Slack Off → egg move
+	db 36, PSYCHIC_M
+	db 41, SAFEGUARD ; Psych Up → TM move
+	db 46, RAIN_DANCE
+	db 51, NASTY_PLOT ; Heal Pulse → Nasty Plot
+	db 55, FUTURE_SIGHT ; SV Reminder move
 	db -1 ; no more level-up moves
 
 MisdreavusEvosAttacks:
@@ -6240,6 +6262,7 @@ LeafeonEvosAttacks:
 	db 37, SEED_BOMB ; Sunny Day → tutor move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
 	db 45, SUNNY_DAY ; Leaf Blade → Sunny Day
+	db 50, POWER_WHIP ; New move
 	db -1 ; no more level-up moves
 
 GlaceonEvosAttacks:
@@ -6255,10 +6278,11 @@ GlaceonEvosAttacks:
 	db 20, ICE_SHARD ; Ice Fang → Ice Shard
 	db 25, HAIL ; Ice Shard → Hail
 	db 29, BARRIER
-	db 33, MIRROR_COAT
+	db 33, WATER_PULSE ; TM move
 	db 37, ICE_BEAM ; Hail → TM move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
-	db 45, BLIZZARD
+	db 45, MIRROR_COAT
+	db 50, BLIZZARD
 	db -1 ; no more level-up moves
 
 MamoswineEvosAttacks:
@@ -6316,9 +6340,10 @@ SylveonEvosAttacks:
 	db 25, SKILL_SWAP
 	db 29, HEAL_BELL ; Misty Terrain → HGSS tutor move
 	db 33, LIGHT_SCREEN
-	db 37, MOONBLAST
+	db 37, PLAY_ROUGH ; Psych Up → new move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
-	db 45, PLAY_ROUGH ; Psych Up → new move
+	db 45, EXTRASENSORY ; Psyshock like move
+	db 50, MOONBLAST
 	db -1 ; no more level-up moves
 
 PerrserkerEvosAttacks:
