@@ -39,7 +39,7 @@
 	db 2 percent ; encounter rate
 	wildmon 15, SLOWPOKE
 	wildmon 20, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SLOWPOKE, GALARIAN_FORM
 	end_water_wildmons
 
 	def_water_wildmons SLOWPOKE_WELL_B2F
@@ -122,14 +122,14 @@
 	def_water_wildmons GOLDENROD_HARBOR
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
+	wildmon LEVEL_FROM_BADGES - 5, REMORAID
 	wildmon LEVEL_FROM_BADGES + 0, GOLDUCK
 	end_water_wildmons
 
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
 	wildmon 25, MAGIKARP
-	wildmon 30, MAGIKARP
+	wildmon 30, HORSEA
 	wildmon 20, DRATINI
 	end_water_wildmons
 
@@ -381,7 +381,7 @@
 	def_water_wildmons MURKY_SWAMP
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 5, WOOPER
-	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES + 0, WOOPER, PALDEAN_FORM
 	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
 	end_water_wildmons
 
