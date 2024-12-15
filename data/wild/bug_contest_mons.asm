@@ -14,8 +14,8 @@ ContestMons:
 	contest_mon  5, BEEDRILL,   12, 15
 	contest_mon 10, VENONAT,    10, 16
 	contest_mon 10, PARAS,      10, 17
-	contest_mon  5, VENOMOTH,   12, 15
-	contest_mon  5, YANMA,      13, 14
-	contest_mon  5, SCYTHER,    13, 14
-	contest_mon  5, PINSIR,     13, 14
+	contest_mon  5, VENOMOTH,   13, 16
+	contest_mon  5, YANMA,      14, 15
+	contest_mon  5, SCYTHER,    14, 15
+	contest_mon  5, PINSIR,     14, 15
 ContestMonsEnd:
