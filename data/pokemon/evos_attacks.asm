@@ -4756,7 +4756,7 @@ SlowkingGalarianEvosAttacks:
 	db 41, SAFEGUARD ; Psych Up → TM move
 	db 46, RAIN_DANCE
 	db 51, NASTY_PLOT ; Heal Pulse → Nasty Plot
-	db 55, FUTURE_SIGHT ; SV Reminder move
+	db 55, GUNK_SHOT ; SV TM move
 	db -1 ; no more level-up moves
 
 MisdreavusEvosAttacks:
