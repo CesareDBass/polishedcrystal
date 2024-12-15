@@ -321,8 +321,8 @@ ChlorophyllDescription:
 	done
 
 IlluminateDescription:
-	text  "Raises the rate"
-	next1 "of wild #mon."
+	text  "Encounters raised,"
+	next1 "blocks Acc. drops"
 	done
 
 TraceDescription:
