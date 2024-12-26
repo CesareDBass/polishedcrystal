@@ -2015,7 +2015,7 @@ FarfetchDPlainEvosAttacks:
 	db 11, FALSE_SWIPE ; Cut → False Swipe
 	db 16, CUT ; False Swipe → Cut
 	db 21, AERIAL_ACE
-	db 25; RAZOR_LEAF ; LGPE move
+	db 25, RAZOR_LEAF ; LGPE move
 	db 28, KNOCK_OFF
 	db 33, SLASH
 	db 36, SWORDS_DANCE
@@ -2036,7 +2036,7 @@ FarfetchDGalarianEvosAttacks:
 	db 11, REVERSAL ; Rock Smash → TM move
 	db 16, STEEL_WING ; Defog → TM move
 	db 21, FEINT_ATTACK ; Brutal Swing → similar move
-	db 25; RAZOR_LEAF ; LGPE move
+	db 25, RAZOR_LEAF ; LGPE move
 	db 28, KNOCK_OFF
 	db 33, DRAIN_PUNCH ; Brick Break → New Move
 	db 36, SWORDS_DANCE
@@ -6398,7 +6398,7 @@ SirfetchDEvosAttacks:
 	db 11, REVERSAL ; Rock Smash → TM move
 	db 16, STEEL_WING ; Defog → TM move
 	db 21, FEINT_ATTACK ; Brutal Swing → similar move
-	db 25; RAZOR_LEAF ; LGPE move
+	db 25, RAZOR_LEAF ; LGPE move
 	db 28, KNOCK_OFF
 	db 33, DRAIN_PUNCH ; Brick Break → New Move
 	db 36, SWORDS_DANCE
