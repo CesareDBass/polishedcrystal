@@ -675,7 +675,9 @@ HoppipEggMoves:
 
 AipomEggMoves:
 	db COUNTER
+	db IRON_TAIL
 	db PURSUIT
+	db ROCK_BLAST
 	db $ff
 
 SunkernEggMoves:
