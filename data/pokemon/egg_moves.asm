@@ -793,7 +793,7 @@ HeracrossEggMoves:
 SneaselEggMoves:
 	db BITE
 	db FORESIGHT
-	db PURSUIT
+	db CRUNCH
 	db COUNTER
 	db REFLECT
 	db ICICLE_SPEAR
