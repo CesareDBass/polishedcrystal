@@ -796,7 +796,7 @@ SneaselEggMoves:
 	db PURSUIT
 	db COUNTER
 	db REFLECT
-	db ICICLE_CRASH
+	db ICICLE_SPEAR
 	db ICE_SHARD
 	db $ff
 
