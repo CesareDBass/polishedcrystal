@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)
 	db  95, 105,  85,  45, 125,  75 ; 530 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  95, 125,  85,  45, 105,  75 ; 530 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db GRASS, DRAGON ; type
 	db 45 ; catch rate
