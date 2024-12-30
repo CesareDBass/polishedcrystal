@@ -6,11 +6,13 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
+if DEF(FAITHFUL)
 	db NORMAL, FLYING ; type
 	db 90 ; catch rate
-if DEF(FAITHFUL)
 	db 162 ; base exp
 else
+	db FLYING, FLYING ; type
+	db 90 ; catch rate
 	db 169 ; base exp
 endc
 	db NO_ITEM, SHARP_BEAK ; held items
