@@ -105,7 +105,7 @@ endc
 if DEF(FAITHFUL)
 	move STRENGTH,        EFFECT_NORMAL_HIT,         80, NORMAL,    100, 15,   0, PHYSICAL
 else
-	move STRENGTH,        EFFECT_NORMAL_HIT,         80, FIGHTING,  100, 15,   0, PHYSICAL
+	move STRENGTH,        EFFECT_ATTACK_UP_HIT,      50, NORMAL,    100, 10,  50, PHYSICAL
 endc
 	move ABSORB,          EFFECT_LEECH_HIT,          20, GRASS,     100, 25,   0, SPECIAL
 	move MEGA_DRAIN,      EFFECT_LEECH_HIT,          40, GRASS,     100, 15,   0, SPECIAL
@@ -221,7 +221,7 @@ endc
 	move HYPER_FANG,      EFFECT_FLINCH_HIT,         80, NORMAL,     90, 15,  10, PHYSICAL
 	move BULK_UP,         EFFECT_BULK_UP,             0, FIGHTING,  100, 20,   0, STATUS
 	move CONVERSION,      EFFECT_CONVERSION,          0, NORMAL,     -1, 30,   0, STATUS
-	move TRI_ATTACK,      EFFECT_TRI_ATTACK,         80, NORMAL,    100, 10,  20, SPECIAL
+	move TRI_ATTACK,      EFFECT_TRI_ATTACK,         80, NORMAL,    100, 10,  30, SPECIAL
 	move SUPER_FANG,      EFFECT_SUPER_FANG,          1, NORMAL,     90, 10,   0, PHYSICAL
 	move SLASH,           EFFECT_NORMAL_HIT,         70, NORMAL,    100, 20,   0, PHYSICAL
 	move SUBSTITUTE,      EFFECT_SUBSTITUTE,          0, NORMAL,     -1, 10,   0, STATUS
