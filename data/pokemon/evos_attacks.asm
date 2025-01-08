@@ -234,7 +234,8 @@ ButterfreeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Caterpie move
 	db 1, STRING_SHOT ; Caterpie move
-	db 1, GUST
+	db 1, DEFENSE_CURL ; Metapod move
+	db 1, GUST; evolution move
 	db 11, CONFUSION
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
@@ -245,7 +246,7 @@ ButterfreeEvosAttacks:
 	db 29, HYPNOSIS ; Whirlwind → new move
 	db 31, BUG_BUZZ
 	db 35, REFLECT ; Rage Powder → RBY TM move
-	db 37, AGILITY ; Captivate → new move
+	db 37, TRI_ATTACK ; Captivate → new move, reference to G-Max Befuddle
 	db 41, HEALINGLIGHT ; Tailwind → new move
 	db 43, AIR_SLASH
 	db 47, PSYCHIC_M ; Quiver Dance → TM move
@@ -271,19 +272,21 @@ BeedrillEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, POISON_STING ; Weedle move
 	db 1, STRING_SHOT ; Weedle move
-	db 1, FURY_STRIKES ; Fury Attack → similar move
-	db 1, U_TURN ; evolution move
+	db 1, DEFENSE_CURL ; Kakuna move
+	db 1, U_TURN ; Evolution move
+	db 11, FURY_STRIKES ; Fury Attack → similar move
 	db 14, RAGE
 	db 17, PURSUIT
-	db 20, FOCUS_ENERGY
+	db 19, FOCUS_ENERGY
 	db 23, VENOSHOCK
-	db 26, FEINT_ATTACK ; Assurance → similar move
+	db 25, FEINT_ATTACK ; Assurance → similar move
 	db 29, TOXIC_SPIKES
-	db 32, PIN_MISSILE
+	db 31, PIN_MISSILE
 	db 35, POISON_JAB
-	db 38, AGILITY
+	db 37, AGILITY
 	db 41, SWORDS_DANCE ; Endeavor → TM move
-	db 44, OUTRAGE ; Fell Stinger → LGPE move
+	db 44, X_SCISSOR ; Fell Stinger → TM Move
+	db 47, OUTRAGE ; LGPE move
 	db -1 ; no more level-up moves
 
 PidgeyEvosAttacks:
@@ -6505,6 +6508,7 @@ SneaslerEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUNK_SHOT ; evolution move
 	db 1, SWORDS_DANCE ; PLA move
+	db 1, TRI_ATTACK ; Dire Claw → Similar in idea
 	db 1, SCRATCH
 	db 1, LEER
 	db 1, LOW_KICK ; Rock Smash → Low Kick
