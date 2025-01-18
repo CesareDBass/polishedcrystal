@@ -5190,9 +5190,9 @@ SlugmaEvosAttacks:
 	db 15, FIRE_SPIN ; Incinerate → new move
 	db 20, SMOKESCREEN ; Clear Smog → egg move
 	db 22, ANCIENTPOWER
-	db 27, FLAME_CHARGE ; Flame Burst → TM move
+	db 27, PAIN_SPLIT ; Flame Burst → HGSS tutor move
 	db 29, ROCK_SLIDE
-	db 34, PAIN_SPLIT ; Lava Plume → HGSS tutor move
+	db 34, POWER_GEM ; Lava Plume → TM move
 	db 36, AMNESIA
 	db 41, BODY_SLAM
 	db 43, RECOVER
@@ -5210,9 +5210,9 @@ MagcargoEvosAttacks:
 	db 15, FIRE_SPIN ; Incinerate → new move
 	db 20, SMOKESCREEN ; Clear Smog → egg move
 	db 22, ANCIENTPOWER
-	db 27, FLAME_CHARGE ; Flame Burst → TM move
+	db 27, PAIN_SPLIT ; Flame Burst → HGSS tutor move
 	db 29, ROCK_SLIDE
-	db 34, PAIN_SPLIT ; Lava Plume → HGSS tutor move
+	db 34, POWER_GEM ; Lava Plume → TM move
 	db 36, AMNESIA
 	db 43, BODY_SLAM
 	db 47, RECOVER
